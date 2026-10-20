@@ -1,0 +1,697 @@
+WEBVTT
+
+1
+00:00:00.600 --> 00:00:01.400
+Dobar dan.
+
+2
+00:00:01.440 --> 00:00:06.200
+Ovo je druga lekcija kursa Uvod u statistiku u fizičkom vaspitanju i sportu.
+
+3
+00:00:06.260 --> 00:00:11.160
+Tema današnjeg časa je priprema i prikazivanje podataka za statističku analizu.
+
+4
+00:00:11.213 --> 00:00:16.200
+Svako merenje u sportu, bilo da je to telesna masa, visina ili rezultat na testu,
+
+5
+00:00:16.440 --> 00:00:20.840
+završava se zapisanim vrednostima: brojevima ili kategorijama.
+
+6
+00:00:20.867 --> 00:00:24.840
+Da bi program mogao da ih obradi, moraju biti zapisane na pravi način.
+
+7
+00:00:24.893 --> 00:00:28.040
+To je korak koji dolazi pre svake analize.
+
+8
+00:00:28.060 --> 00:00:30.040
+Pogledajmo prvo o čemu će biti reč.
+
+9
+00:00:32.066 --> 00:00:33.906
+Čas ima pet delova.
+
+10
+00:00:33.959 --> 00:00:39.186
+Prvi je matrica podataka: kako se podaci zapisuju da bi ih statistički program
+
+11
+00:00:39.246 --> 00:00:40.226
+razumeo.
+
+12
+00:00:50.616 --> 00:00:56.456
+Treći, organizacija i grupisanje: kako od evidencije nastavnika dođemo do matrice i
+
+13
+00:00:56.536 --> 00:00:57.576
+do frekvencija.
+
+14
+00:00:59.617 --> 00:01:05.137
+Četvrti, prikaz podataka: tabele i grafikoni za jednu i za dve varijable.
+
+15
+00:01:07.181 --> 00:01:12.941
+I peti, raspodela: kako grafikon pokazuje gde je najviše rezultata.
+
+16
+00:01:13.001 --> 00:01:16.621
+Bez dobro pripremljenih podataka nema pouzdanih rezultata.
+
+17
+00:01:58.559 --> 00:02:02.079
+Nastavnik je izmerio telesnu masu i visinu učenika.
+
+18
+00:02:02.106 --> 00:02:06.399
+Da bi statistički program mogao da te podatke obradi, da ih prebroji,
+
+19
+00:02:06.459 --> 00:02:12.879
+razvrsta i prikaže, oni moraju biti zapisani u jednom obliku: u matrici podataka.
+
+20
+00:02:12.906 --> 00:02:18.399
+To je tabela sa redovima i kolonama, koju gotovo svaki statistički program očekuje.
+
+21
+00:02:20.438 --> 00:02:22.438
+Svaki red je jedan ispitanik.
+
+22
+00:02:22.718 --> 00:02:28.998
+U ovom primeru, red broj dva je ispitanica: ženskog pola, šezdeset dva kilograma,
+
+23
+00:02:29.058 --> 00:02:30.598
+metar i šezdeset osam.
+
+24
+00:03:06.458 --> 00:03:07.178
+I još nešto.
+
+25
+00:03:07.278 --> 00:03:10.698
+Program mora da zna kakva je koja varijabla.
+
+26
+00:03:10.758 --> 00:03:14.058
+Pol je kategorija: muški ili ženski.
+
+27
+00:03:14.085 --> 00:03:17.258
+Telesna masa i visina su brojevi, sa kojima se računa.
+
+28
+00:03:17.391 --> 00:03:21.578
+ID je samo oznaka ispitanika, i sa njim se ne računa.
+
+29
+00:03:21.628 --> 00:03:25.258
+Program vrstu varijable određuje sam, ali ne uvek ispravno.
+
+30
+00:03:25.298 --> 00:03:29.418
+Zato je proveravamo: ako program pogrešno shvati vrstu varijable,
+
+31
+00:03:29.538 --> 00:03:31.738
+i rezultat će biti pogrešan.
+
+32
+00:03:42.380 --> 00:03:46.380
+Kako ćemo složiti kolone, zavisi od pitanja koje postavljamo.
+
+33
+00:03:46.540 --> 00:03:51.860
+Nastavnik može da poredi dečake i devojčice: to je poređenje između grupa.
+
+34
+00:03:52.040 --> 00:03:57.900
+Ili može da prati iste učenike na početku i na kraju godine: to je poređenje unutar
+
+35
+00:03:57.953 --> 00:04:00.220
+grupe, kod istih ispitanika.
+
+36
+00:04:00.407 --> 00:04:03.900
+Za svako pitanje matrica izgleda malo drugačije.
+
+37
+00:04:04.460 --> 00:04:09.900
+Kako zapisati podatke kada poredimo dve grupe, na primer muškarce i žene?
+
+38
+00:04:10.113 --> 00:04:15.500
+Prvo što pada na pamet su dve tabele: jedna za muškarce, druga za žene.
+
+39
+00:04:15.700 --> 00:04:17.420
+Čoveku je to pregledno.
+
+40
+00:04:17.520 --> 00:04:22.220
+Ali za statistički program to su dva nepovezana skupa podataka.
+
+41
+00:04:24.269 --> 00:04:26.909
+Zato se grupa zapisuje kao varijabla.
+
+42
+00:04:26.989 --> 00:04:33.389
+Svi ispitanici su u jednoj tabeli, a kolona pol kaže kojoj grupi ko pripada.
+
+43
+00:04:33.469 --> 00:04:38.189
+Sada program sam razvrstava ispitanike i može da uporedi grupe.
+
+44
+00:04:40.218 --> 00:04:45.098
+Drugi slučaj: jedna grupa, ali dva merenja kod istih ispitanika.
+
+45
+00:04:45.151 --> 00:04:49.338
+Na primer, telesna masa pre i posle programa treninga.
+
+46
+00:04:49.378 --> 00:04:54.458
+Tada oba merenja idu u isti red, u dve kolone: TM jedan i TM dva,
+
+47
+00:04:54.498 --> 00:04:56.298
+jer je to ista osoba.
+
+48
+00:04:56.378 --> 00:04:59.338
+Ovakav zapis zove se široki format.
+
+49
+00:05:21.965 --> 00:05:23.005
+Zašto je ovo važno?
+
+50
+00:05:23.325 --> 00:05:28.285
+Zato što u Jamovi-ju analizu biramo prevlačenjem kolona u polja.
+
+51
+00:05:28.338 --> 00:05:34.525
+Za ovakav raspored podataka, kolona pol ide u polje za grupe, između ispitanika.
+
+52
+00:05:34.565 --> 00:05:41.005
+Kolone TM jedan i TM dva idu u polje za ponovljena merenja, unutar ispitanika.
+
+53
+00:05:41.085 --> 00:05:45.485
+Ako podaci nisu ovako raspoređeni, nemamo šta da prevučemo.
+
+54
+00:05:57.808 --> 00:05:59.488
+Ceo ovaj deo radimo na jednom primeru.
+
+55
+00:05:59.536 --> 00:06:02.208
+Test iz statistike radilo je sto studenata.
+
+56
+00:06:02.272 --> 00:06:07.168
+Test je imao sto pitanja, i svaki tačan odgovor nosi jedan poen.
+
+57
+00:06:07.221 --> 00:06:10.528
+Ko ima pedeset poena ili manje, nije položio.
+
+58
+00:06:10.581 --> 00:06:15.568
+Od pedeset jedan do sto poena, ocene idu od šest do deset: na svakih deset poena,
+
+59
+00:06:15.675 --> 00:06:17.168
+po jedna ocena.
+
+60
+00:06:17.208 --> 00:06:21.088
+Nastavnik treba da napiše izveštaj o testu: koliko je studenata položilo,
+
+61
+00:06:21.208 --> 00:06:25.328
+kakve su ocene, i kako su prošli muškarci, a kako žene.
+
+62
+00:06:27.367 --> 00:06:30.407
+Pogledajmo kako je nastavnik zabeležio rezultate.
+
+63
+00:06:30.457 --> 00:06:34.167
+Studenti su sedeli u deset redova sa po deset mesta,
+
+64
+00:06:34.367 --> 00:06:37.367
+i svako mesto imalo je svoj broj.
+
+65
+00:06:37.427 --> 00:06:41.527
+Posle testa nastavnik je rezultate zapisao u tri tabele.
+
+66
+00:06:41.567 --> 00:06:43.367
+U prvoj su poeni.
+
+67
+00:06:43.407 --> 00:06:45.847
+U drugoj je broj mesta.
+
+68
+00:06:45.887 --> 00:06:51.047
+U trećoj je pol: nula za muškarce, jedan za žene.
+
+69
+00:06:51.087 --> 00:06:53.127
+Sve što nam treba je tu.
+
+70
+00:06:53.207 --> 00:06:56.247
+Ali da li je ovo matrica podataka?
+
+71
+00:06:56.327 --> 00:06:56.967
+Nije.
+
+72
+00:06:57.127 --> 00:07:01.047
+Ovo je raspored sedenja, a ne spisak studenata.
+
+73
+00:07:03.091 --> 00:07:04.771
+Pogledajmo jednu studentkinju.
+
+74
+00:07:04.811 --> 00:07:06.691
+Sedela je na mestu broj petnaest.
+
+75
+00:07:06.744 --> 00:07:11.011
+Na istom mestu u prvoj tabeli su njeni poeni: devedeset jedan.
+
+76
+00:07:11.051 --> 00:07:15.891
+A u trećoj tabeli, opet na istom mestu, jedinica: ženski pol.
+
+77
+00:07:15.931 --> 00:07:19.491
+Podaci o jednoj osobi nalaze se u tri različite tabele.
+
+78
+00:07:21.522 --> 00:07:24.322
+Matrica podataka spaja te podatke.
+
+79
+00:07:24.375 --> 00:07:27.042
+Svaki student dobija jedan red.
+
+80
+00:07:27.095 --> 00:07:31.762
+Prva kolona je redni broj, druga pol, treća poeni.
+
+81
+00:07:31.822 --> 00:07:34.482
+Petnaest, jedan, devedeset jedan.
+
+82
+00:07:34.542 --> 00:07:36.562
+Jedan student, jedan red.
+
+83
+00:07:38.595 --> 00:07:43.715
+Kada se to uradi za sve, dobija se matrica od sto redova i tri kolone.
+
+84
+00:07:43.768 --> 00:07:47.955
+Svaki red je jedan student, svaka kolona jedna varijabla.
+
+85
+00:07:47.995 --> 00:07:50.995
+Sada statistički program zna šta je šta.
+
+86
+00:07:53.029 --> 00:07:58.189
+U Excelu se to radi tako što se kolone tabela premeštaju jedna ispod druge,
+
+87
+00:07:58.259 --> 00:08:03.029
+dok ne nastanu tri duge kolone: redni broj, poeni i pol.
+
+88
+00:08:03.269 --> 00:08:05.669
+Ovde vidite kraj tog postupka.
+
+89
+00:08:05.749 --> 00:08:09.749
+Ceo postupak, korak po korak, prikazan je u prvom videu vežbe.
+
+90
+00:08:11.800 --> 00:08:13.480
+Ocena se ne upisuje ručno.
+
+91
+00:08:13.533 --> 00:08:16.280
+Izračunava se iz poena i tabele pravila,
+
+92
+00:08:16.320 --> 00:08:20.360
+i to za svih sto studenata odjednom; isto važi i za status,
+
+93
+00:08:20.453 --> 00:08:22.760
+položio ili nije položio.
+
+94
+00:08:22.800 --> 00:08:25.440
+U Excelu se za to koristi funkcija VLOOKUP,
+
+95
+00:08:25.500 --> 00:08:28.520
+a u Jamovi-ju pravila u opciji Transform.
+
+96
+00:08:28.560 --> 00:08:31.160
+Oba postupka su prikazana u videima vežbe.
+
+97
+00:08:33.209 --> 00:08:37.609
+Kada su podaci u matrici, sledeći korak je da ih uredimo.
+
+98
+00:08:37.662 --> 00:08:42.969
+Grupisanje znači da ispitanike sa istom vrednošću neke varijable stavimo u istu
+
+99
+00:08:43.033 --> 00:08:43.849
+grupu.
+
+100
+00:08:43.876 --> 00:08:46.569
+Svaki kvadratić ovde je jedan student.
+
+101
+00:08:46.622 --> 00:08:49.769
+Muškarci su u jednoj grupi, žene u drugoj.
+
+102
+00:08:49.829 --> 00:08:54.089
+Broj ispitanika u jednoj kategoriji zove se frekvencija.
+
+103
+00:08:54.142 --> 00:08:57.689
+Muškaraca ima pedeset pet, a žena četrdeset pet.
+
+104
+00:08:59.738 --> 00:09:05.498
+Procenat pokazuje koliki deo svih ispitanika je u jednoj kategoriji: frekvencija se
+
+105
+00:09:05.538 --> 00:09:09.578
+podeli brojem svih ispitanika i pomnoži sa sto.
+
+106
+00:09:09.631 --> 00:09:14.538
+Muškaraca je pedeset pet od sto, dakle pedeset pet odsto.
+
+107
+00:09:14.586 --> 00:09:18.778
+Procenat je posebno važan kada poredimo grupe različite veličine.
+
+108
+00:09:20.807 --> 00:09:24.087
+Sada frekvencije prikazujemo tabelom i grafikonom.
+
+109
+00:09:24.227 --> 00:09:29.607
+Najjednostavnije je grupisanje po jednoj varijabli: jednodimenzionalno grupisanje.
+
+110
+00:09:29.634 --> 00:09:34.647
+Po polu: pedeset pet muškaraca i četrdeset pet žena.
+
+111
+00:09:34.687 --> 00:09:40.087
+Tabela daje tačne brojeve i procente, a grafikon pokazuje razliku na prvi pogled.
+
+112
+00:09:40.127 --> 00:09:44.807
+Zato oboje ide u izveštaj, na primer školi ili roditeljima.
+
+113
+00:09:44.834 --> 00:09:49.847
+Pošto je studenata tačno sto, frekvencija i procenat su ovde isti broj.
+
+114
+00:09:51.882 --> 00:09:53.642
+Isto i za status.
+
+115
+00:09:53.690 --> 00:09:59.322
+Položilo je sedamdeset šest studenata, a nije položilo dvadeset četiri.
+
+116
+00:09:59.382 --> 00:10:02.682
+Dakle, tri četvrtine studenata položilo je test.
+
+117
+00:10:04.722 --> 00:10:08.322
+A šta ako nas zanimaju pol i status zajedno?
+
+118
+00:10:08.362 --> 00:10:11.762
+Tada grupišemo po dve varijable odjednom.
+
+119
+00:10:11.815 --> 00:10:16.962
+Grupisanje po dve ili više varijabli zove se višedimenzionalno; ovde su dve,
+
+120
+00:10:16.989 --> 00:10:18.962
+pa je dvodimenzionalno.
+
+121
+00:10:19.042 --> 00:10:22.562
+Ovakva tabela zove se tabela kontingencije.
+
+122
+00:10:22.642 --> 00:10:28.482
+Od pedeset pet muškaraca, položilo je četrdeset tri, a nije dvanaest.
+
+123
+00:10:28.589 --> 00:10:34.882
+Od četrdeset pet žena, položilo je trideset tri, a nije, takođe, dvanaest.
+
+124
+00:10:34.962 --> 00:10:40.722
+Red ukupno vraća nas na jednodimenzionalnu tabelu statusa: sedamdeset šest i
+
+125
+00:10:40.855 --> 00:10:42.162
+dvadeset četiri.
+
+126
+00:10:44.208 --> 00:10:47.248
+Muškaraca je pedeset pet, a žena četrdeset pet,
+
+127
+00:10:47.381 --> 00:10:50.368
+pa same frekvencije mogu da zavaraju.
+
+128
+00:10:50.448 --> 00:10:55.968
+U obe grupe po dvanaest studenata nije položilo, ali to nije isti deo grupe.
+
+129
+00:10:56.008 --> 00:10:59.168
+Zato računamo procenat unutar svake grupe.
+
+130
+00:10:59.208 --> 00:11:04.528
+Nije položilo dvadeset jedan zapeta osam odsto muškaraca i dvadeset šest zapeta
+
+131
+00:11:04.608 --> 00:11:06.128
+sedam odsto žena.
+
+132
+00:11:08.177 --> 00:11:11.857
+Grafički, to su grupisani stubići: za svaki pol,
+
+133
+00:11:11.977 --> 00:11:16.257
+jedan stubić za one koji su položili i jedan za one koji nisu.
+
+134
+00:11:16.297 --> 00:11:20.497
+Pazite: muškaraca ima više, pa su i njihovi stubići viši.
+
+135
+00:11:20.537 --> 00:11:25.537
+Zato se grupe različite veličine porede procentima, a ne frekvencijama.
+
+136
+00:11:27.575 --> 00:11:28.535
+Ostala je ocena.
+
+137
+00:11:28.815 --> 00:11:33.175
+Tabela frekvencija za svaku ocenu daje broj studenata,
+
+138
+00:11:33.239 --> 00:11:35.895
+procenat i kumulativni procenat.
+
+139
+00:11:35.935 --> 00:11:40.775
+Kumulativni procenat sabira procente od najniže ocene do te ocene,
+
+140
+00:11:40.855 --> 00:11:42.775
+uključujući i nju.
+
+141
+00:11:42.828 --> 00:11:47.815
+Na primer, pedeset pet odsto studenata ima ocenu sedam ili nižu.
+
+142
+00:11:49.846 --> 00:11:52.966
+Stubičasti grafikon pokazuje istu raspodelu.
+
+143
+00:11:53.026 --> 00:11:57.366
+Najčešća ocena je pet: dobila su je dvadeset četiri studenta.
+
+144
+00:11:57.419 --> 00:12:02.566
+Među prolaznim ocenama nema jedne koja se izdvaja: svaku je dobilo između trinaest
+
+145
+00:12:02.686 --> 00:12:04.166
+i sedamnaest studenata.
+
+146
+00:12:06.213 --> 00:12:10.053
+Poeni imaju mnogo različitih vrednosti, od nula do sto.
+
+147
+00:12:10.093 --> 00:12:13.413
+Zato ih grupišemo u razrede, ovde po deset poena,
+
+148
+00:12:13.453 --> 00:12:15.893
+i za svaki razred brojimo studente.
+
+149
+00:12:15.933 --> 00:12:18.373
+Takav grafikon zove se histogram.
+
+150
+00:12:18.426 --> 00:12:23.253
+On pokazuje oblik raspodele: gde je najviše rezultata, a gde ih je malo.
+
+151
+00:12:25.297 --> 00:12:28.417
+Sada posebno muškarci i žene.
+
+152
+00:12:28.457 --> 00:12:30.417
+Ovo je raspodela poena muškaraca.
+
+153
+00:12:30.444 --> 00:12:37.217
+Svaki stubić pokazuje koliki deo grupe ima poene u tom razredu od deset poena.
+
+154
+00:12:37.270 --> 00:12:39.537
+Zašto procenti, a ne broj studenata?
+
+155
+00:12:39.577 --> 00:12:46.257
+Zato što grupe nisu iste veličine: muškaraca je pedeset pet, a žena četrdeset pet.
+
+156
+00:12:46.317 --> 00:12:49.337
+Najviše muškaraca, dvadeset od pedeset pet,
+
+157
+00:12:49.387 --> 00:12:52.337
+ima između pedeset jedan i sedamdeset poena.
+
+158
+00:12:54.386 --> 00:12:55.906
+A ovo su žene.
+
+159
+00:12:56.066 --> 00:13:01.586
+Kod žena ima više rezultata među najnižim poenima: između dvadeset jedan i
+
+160
+00:13:01.626 --> 00:13:05.586
+četrdeset poena ima osam žena, a samo tri muškarca.
+
+161
+00:13:05.666 --> 00:13:07.826
+Ali žena ima i među najboljima.
+
+162
+00:13:09.865 --> 00:13:12.585
+Stavimo ih jednu ispod druge.
+
+163
+00:13:12.638 --> 00:13:14.505
+Oblik raspodele se razlikuje.
+
+164
+00:13:14.545 --> 00:13:20.345
+Kod muškaraca je više od trećine rezultata između pedeset jedan i sedamdeset poena.
+
+165
+00:13:20.385 --> 00:13:23.385
+Kod žena je u tom delu manje od četvrtine,
+
+166
+00:13:23.425 --> 00:13:28.665
+a više je niskih rezultata: do četrdeset poena ima dvadeset dva odsto žena,
+
+167
+00:13:28.865 --> 00:13:31.545
+a jedanaest odsto muškaraca.
+
+168
+00:13:31.585 --> 00:13:36.665
+Pri vrhu, od osamdeset jedan poena naviše, grupe su slične.
+
+169
+00:13:36.718 --> 00:13:40.105
+Može li se ovakva razlika opisati jednim brojem?
+
+170
+00:13:40.145 --> 00:13:42.985
+I zašto jedan broj nije dovoljan?
+
+171
+00:13:43.038 --> 00:13:44.985
+To je tema sledeće lekcije.
+
+172
+00:13:57.542 --> 00:14:00.422
+Drugo: raspored kolona prati pitanje.
+
+173
+00:14:00.622 --> 00:14:03.302
+Poredimo li grupe, grupa je kolona.
+
+174
+00:14:03.422 --> 00:14:08.262
+Merimo li iste ispitanike više puta, svako merenje je kolona.

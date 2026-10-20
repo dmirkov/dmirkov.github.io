@@ -1,0 +1,1065 @@
+WEBVTT
+
+1
+00:00:00.600 --> 00:00:01.560
+Dobar dan.
+
+2
+00:00:01.600 --> 00:00:06.680
+Ovo je treća lekcija kursa Uvod u statistiku u fizičkom vaspitanju i sportu.
+
+3
+00:00:06.720 --> 00:00:09.800
+Tema su deskriptivni pokazatelji.
+
+4
+00:00:09.840 --> 00:00:14.600
+Kada su podaci prikupljeni, organizovani i prikazani, kao u prošloj lekciji,
+
+5
+00:00:14.660 --> 00:00:19.800
+sledeći korak je da ih opišemo sa nekoliko brojeva: oko koje vrednosti se rezultati
+
+6
+00:00:19.848 --> 00:00:25.480
+grupišu, i koliko se rezultati unutar grupe međusobno razlikuju.
+
+7
+00:00:25.507 --> 00:00:29.160
+Počećemo jednim testiranjem iz laboratorije našeg fakulteta.
+
+8
+00:00:31.204 --> 00:00:32.884
+Čas ima četiri dela.
+
+9
+00:00:32.937 --> 00:00:37.204
+Prvi: podaci, i pitanje kako opisati grupu.
+
+10
+00:00:39.238 --> 00:00:41.958
+Drugi: mere centralne tendencije,
+
+11
+00:00:42.054 --> 00:00:46.358
+koje pokazuju oko koje vrednosti se rezultati grupišu.
+
+12
+00:00:48.396 --> 00:00:50.356
+Treći: mere disperzije,
+
+13
+00:00:50.396 --> 00:00:54.956
+koje pokazuju koliko se rezultati unutar grupe međusobno razlikuju.
+
+14
+00:00:57.005 --> 00:01:00.205
+I četvrti: kako se to piše u izveštaju.
+
+15
+00:01:02.244 --> 00:01:04.644
+Šta treba da znate posle ovog časa?
+
+16
+00:01:04.671 --> 00:01:08.804
+Prvo, da odredite mod, medijanu i aritmetičku sredinu.
+
+17
+00:01:10.853 --> 00:01:14.533
+Drugo, da izaberete pravu meru centralne tendencije,
+
+18
+00:01:14.593 --> 00:01:19.333
+prema skali merenja i prema tome da li ima ekstremnih rezultata.
+
+19
+00:01:21.369 --> 00:01:25.209
+Treće, da izračunate raspon i međukvartilnu razliku.
+
+20
+00:01:27.235 --> 00:01:31.235
+Četvrto, da izračunate varijansu i standardnu devijaciju,
+
+21
+00:01:31.395 --> 00:01:36.035
+i da objasnite zašto se kod uzorka deli sa N minus jedan.
+
+22
+00:01:38.064 --> 00:01:43.744
+I peto, da koeficijentom varijacije uporedite disperziju varijabli izraženih u
+
+23
+00:01:43.824 --> 00:01:45.344
+različitim jedinicama.
+
+24
+00:01:47.379 --> 00:01:52.099
+U istraživačkom centru našeg fakulteta testirano je jedanaest košarkaša iz elitnog
+
+25
+00:01:52.152 --> 00:01:56.019
+kluba i jedanaest fizički aktivnih studenata.
+
+26
+00:01:56.072 --> 00:02:00.099
+Svaki je nekoliko puta izveo vertikalni skok sa pripremom na platformi sile,
+
+27
+00:02:00.299 --> 00:02:03.219
+i za svakog je izmerena visina skoka.
+
+28
+00:02:03.272 --> 00:02:08.099
+Za svakog ispitanika uzimamo jedan broj: aritmetičku sredinu njegovih skokova,
+
+29
+00:02:08.179 --> 00:02:11.155
+o kojoj govorimo kasnije u ovoj lekciji.
+
+30
+00:02:11.219 --> 00:02:14.659
+Za košarkaše tako dobijamo jedanaest brojeva.
+
+31
+00:02:14.699 --> 00:02:18.619
+Trener traži jedan red u izveštaju o tome kako ekipa skače.
+
+32
+00:02:18.659 --> 00:02:20.659
+Koje brojeve da napišemo?
+
+33
+00:02:20.739 --> 00:02:22.339
+Odgovor na to pitanje je ova lekcija.
+
+34
+00:02:24.383 --> 00:02:30.303
+Evo obe grupe na jednoj brojnoj osi; svaka tačka je jedan ispitanik.
+
+35
+00:02:32.339 --> 00:02:36.099
+Prvo pitanje: koliki je tipičan rezultat grupe?
+
+36
+00:02:36.152 --> 00:02:39.379
+Rezultati košarkaša grupišu se oko jedne vrednosti,
+
+37
+00:02:39.419 --> 00:02:42.339
+a rezultati studenata oko niže vrednosti.
+
+38
+00:02:42.419 --> 00:02:45.939
+Mere koje to pokazuju zovu se mere centralne tendencije.
+
+39
+00:02:47.975 --> 00:02:53.175
+Drugo pitanje: koliko se rezultati unutar grupe međusobno razlikuju?
+
+40
+00:02:53.495 --> 00:02:56.615
+Rezultati košarkaša su međusobno bliski,
+
+41
+00:02:56.655 --> 00:03:00.935
+a rezultati studenata se međusobno mnogo više razlikuju.
+
+42
+00:03:00.975 --> 00:03:05.655
+Mere koje to pokazuju zovu se mere disperzije, odnosno rasipanja.
+
+43
+00:03:07.686 --> 00:03:12.726
+Za grupu čiji su rezultati međusobno bliski kažemo da je homogena.
+
+44
+00:03:12.779 --> 00:03:14.486
+Košarkaši su homogena grupa,
+
+45
+00:03:14.566 --> 00:03:20.086
+i to nije slučajno: u elitni klub dolaze igrači koji su prošli selekciju.
+
+46
+00:03:20.136 --> 00:03:26.406
+Studenti su heterogena grupa: neki skaču visoko kao košarkaši, neki mnogo niže.
+
+47
+00:03:28.442 --> 00:03:29.962
+Čemu ovo služi?
+
+48
+00:03:30.002 --> 00:03:35.402
+Nastavnik koji zna samo tipičan rezultat odeljenja ne zna da li svima može da zada
+
+49
+00:03:35.502 --> 00:03:36.922
+isti zadatak.
+
+50
+00:03:36.962 --> 00:03:42.282
+Ako je grupa homogena, isti zadatak i isto opterećenje odgovaraju skoro svima.
+
+51
+00:03:42.362 --> 00:03:47.482
+Ako je heterogena, isti zadatak je jednima prelak, a drugima pretežak,
+
+52
+00:03:47.509 --> 00:03:49.562
+pa se radi po nivoima.
+
+53
+00:03:49.602 --> 00:03:52.682
+Zato grupu uvek opisujemo sa dve mere.
+
+54
+00:03:52.722 --> 00:03:56.122
+Što se rezultati unutar grupe manje razlikuju,
+
+55
+00:03:56.202 --> 00:03:58.842
+to ih tipičan rezultat bolje predstavlja.
+
+56
+00:04:00.874 --> 00:04:03.514
+Dakle, grupu opisuju dve mere,
+
+57
+00:04:03.634 --> 00:04:07.394
+uvek zajedno: oko koje vrednosti se rezultati grupišu,
+
+58
+00:04:07.534 --> 00:04:11.594
+i koliko se unutar grupe međusobno razlikuju.
+
+59
+00:04:11.654 --> 00:04:16.474
+Danas grupe samo opisujemo; da li je razlika između dve grupe stvarna,
+
+60
+00:04:16.501 --> 00:04:20.074
+na to odgovaraju statistički testovi u kasnijim lekcijama.
+
+61
+00:04:22.100 --> 00:04:27.700
+Deskriptivni pokazatelji koriste se za opis varijabli, i dele se u dve vrste.
+
+62
+00:04:27.753 --> 00:04:33.220
+Prva vrsta su mere centralne tendencije: jedna vrednost koja najbolje predstavlja
+
+63
+00:04:33.320 --> 00:04:37.860
+sve rezultate, vrednost oko koje se rezultati grupišu.
+
+64
+00:04:37.913 --> 00:04:41.860
+To su mod, medijana i aritmetička sredina.
+
+65
+00:04:43.901 --> 00:04:49.581
+Mod i medijana su položajne mere: određuju se prema položaju podataka u skupu,
+
+66
+00:04:49.621 --> 00:04:53.101
+a ne računaju se iz vrednosti svih podataka.
+
+67
+00:04:53.141 --> 00:04:58.701
+Aritmetička sredina je potpuna mera: računa se iz vrednosti svih podataka.
+
+68
+00:05:00.739 --> 00:05:02.739
+Druga vrsta su mere disperzije.
+
+69
+00:05:02.779 --> 00:05:06.739
+One pokazuju koliko se rezultati unutar grupe međusobno razlikuju,
+
+70
+00:05:06.792 --> 00:05:09.539
+odnosno koliko je njihovo rasipanje.
+
+71
+00:05:09.592 --> 00:05:14.819
+To su raspon, međukvartilna razlika, varijansa i standardna devijacija,
+
+72
+00:05:14.979 --> 00:05:17.459
+i koeficijent varijacije.
+
+73
+00:05:19.509 --> 00:05:20.949
+Počnimo sa modom.
+
+74
+00:05:21.229 --> 00:05:27.349
+Mod je vrednost koja se najčešće pojavljuje u skupu: ona sa najvećom frekvencijom.
+
+75
+00:05:27.376 --> 00:05:30.309
+Ne računa se, nego se određuje prebrojavanjem.
+
+76
+00:05:30.362 --> 00:05:35.749
+Na testu iz prošle lekcije bilo je pedeset pet mladića i četrdeset pet devojaka.
+
+77
+00:05:37.784 --> 00:05:39.384
+Mod pola je muški pol.
+
+78
+00:05:39.524 --> 00:05:43.384
+Pol je nominalna varijabla: kategorije nemaju redosled,
+
+79
+00:05:43.411 --> 00:05:47.144
+pa za nju od mera centralne tendencije postoji samo mod.
+
+80
+00:05:49.188 --> 00:05:53.588
+Ocene sa istog testa su ordinalna varijabla: imaju redosled,
+
+81
+00:05:53.648 --> 00:05:59.028
+ali razmaci nisu jednaki, jer ocena pet pokriva od nula do pedeset poena,
+
+82
+00:05:59.228 --> 00:06:01.268
+a ostale po deset.
+
+83
+00:06:01.328 --> 00:06:05.348
+Najčešća ocena je pet: dobila su je dvadeset četiri studenta.
+
+84
+00:06:05.401 --> 00:06:06.148
+To je mod.
+
+85
+00:06:08.193 --> 00:06:10.793
+Skup ne mora imati samo jedan mod.
+
+86
+00:06:10.933 --> 00:06:14.433
+U prvom skupu jedna zapeta deset pojavljuje se dva puta,
+
+87
+00:06:14.593 --> 00:06:18.033
+a sve ostale vrednosti po jednom: jedan mod.
+
+88
+00:06:20.068 --> 00:06:25.668
+U drugom, dvadeset sedam i pedeset pet pojavljuju se po tri puta: dva moda.
+
+89
+00:06:27.710 --> 00:06:32.110
+U trećem se svaka vrednost pojavljuje jednom: moda nema.
+
+90
+00:06:32.170 --> 00:06:36.270
+Mod se lako određuje, ali pokazuje samo koja je vrednost najčešća.
+
+91
+00:06:38.304 --> 00:06:44.464
+Medijana je vrednost u sredini poređanih rezultata: deli poređan skup na dva dela
+
+92
+00:06:44.624 --> 00:06:50.144
+sa istim brojem podataka: polovina je ispod nje, polovina iznad.
+
+93
+00:06:50.184 --> 00:06:53.424
+Uzmimo pet rezultata, onako kako su zapisani.
+
+94
+00:06:55.456 --> 00:06:57.616
+Prvi korak je uvek isti.
+
+95
+00:06:57.656 --> 00:07:01.056
+Podatke poređamo, od najmanjeg do najvećeg.
+
+96
+00:07:03.098 --> 00:07:05.898
+Rezultata je pet, neparan broj.
+
+97
+00:07:05.958 --> 00:07:09.098
+Brojimo sa oba kraja, dok ne ostane jedan podatak.
+
+98
+00:07:09.218 --> 00:07:14.058
+Medijana je šest: dva podatka su manja od nje, dva veća.
+
+99
+00:07:16.096 --> 00:07:18.896
+Sada šest rezultata, već poređanih.
+
+100
+00:07:19.036 --> 00:07:22.736
+Broj podataka je paran, pa kad brojimo sa oba kraja,
+
+101
+00:07:22.789 --> 00:07:26.896
+na sredini ostaju dva podatka: šesnaest i sedamnaest.
+
+102
+00:07:28.936 --> 00:07:34.136
+Medijana je aritmetička sredina ta dva podatka: šesnaest zapeta pet.
+
+103
+00:07:34.196 --> 00:07:36.696
+Medijana ne mora biti jedan od podataka.
+
+104
+00:07:36.723 --> 00:07:42.056
+To je ceo postupak, i Excel, Jamovi i SPSS daju istu medijanu.
+
+105
+00:07:44.102 --> 00:07:45.622
+Kada se medijana koristi?
+
+106
+00:07:45.725 --> 00:07:48.262
+Primer iz knjige Vincenta i Weira.
+
+107
+00:07:48.482 --> 00:07:53.862
+Devet osoba uradilo je po četrdeset trbušnjaka, a jedna sto.
+
+108
+00:07:55.898 --> 00:07:57.578
+Medijana je četrdeset.
+
+109
+00:07:57.765 --> 00:08:00.378
+To je tipičan rezultat ove grupe.
+
+110
+00:08:02.417 --> 00:08:07.697
+Aritmetička sredina je četrdeset šest: tu bi greda sa ovim tegovima bila u
+
+111
+00:08:07.737 --> 00:08:08.897
+ravnoteži.
+
+112
+00:08:08.937 --> 00:08:12.417
+A niko u grupi nije uradio četrdeset šest.
+
+113
+00:08:12.477 --> 00:08:16.817
+Jedan ekstremni rezultat povukao je aritmetičku sredinu naviše.
+
+114
+00:08:18.863 --> 00:08:23.903
+Da je najbolji uradio dvesta, aritmetička sredina bila bi pedeset šest.
+
+115
+00:08:23.963 --> 00:08:28.783
+Medijana ostaje četrdeset, jer zavisi samo od redosleda podataka,
+
+116
+00:08:28.863 --> 00:08:32.783
+a ne od toga koliko je najbolji rezultat veći od ostalih.
+
+117
+00:08:32.823 --> 00:08:38.703
+Zato se medijana koristi za ordinalne podatke i kada postoje ekstremni rezultati.
+
+118
+00:08:38.751 --> 00:08:41.823
+Cena je to što ne koristi vrednost svakog podatka.
+
+119
+00:08:43.851 --> 00:08:50.331
+Aritmetička sredina, x s crtom, je najčešće korišćena mera centralne tendencije.
+
+120
+00:08:50.384 --> 00:08:56.411
+Za košarkaše: zbir jedanaest visina skoka je četiristo osamnaest zapeta devet
+
+121
+00:08:56.523 --> 00:08:57.611
+centimetara.
+
+122
+00:08:59.643 --> 00:09:01.643
+Zbir podelimo brojem podataka,
+
+123
+00:09:01.703 --> 00:09:07.083
+jedanaest: aritmetička sredina je trideset osam zapeta jedan centimetar.
+
+124
+00:09:07.163 --> 00:09:12.443
+Računa se samo za kvantitativne podatke, na intervalnoj i racionalnoj skali.
+
+125
+00:09:14.469 --> 00:09:18.469
+Aritmetičku sredinu zovemo težištem skupa.
+
+126
+00:09:18.529 --> 00:09:24.229
+Zamislimo svaki rezultat kao jednak teg na lakoj gredi: aritmetička sredina je
+
+127
+00:09:24.336 --> 00:09:27.509
+tačka u kojoj je greda u ravnoteži.
+
+128
+00:09:29.557 --> 00:09:32.117
+Kod košarkaša nema ekstremnih rezultata,
+
+129
+00:09:32.144 --> 00:09:37.237
+pa su aritmetička sredina i medijana skoro jednake: trideset osam zapeta jedan i
+
+130
+00:09:37.264 --> 00:09:39.397
+trideset osam zapeta pet.
+
+131
+00:09:39.437 --> 00:09:41.317
+Tada koristimo aritmetičku sredinu,
+
+132
+00:09:41.357 --> 00:09:45.477
+jer uključuje vrednost svakog podatka i osnova je za dalje račune.
+
+133
+00:09:47.518 --> 00:09:48.558
+Da sumiramo.
+
+134
+00:09:48.638 --> 00:09:50.878
+Mod se može odrediti na svakoj skali,
+
+135
+00:09:50.958 --> 00:09:55.198
+a za nominalne podatke jedina je mera centralne tendencije.
+
+136
+00:09:57.224 --> 00:10:03.304
+Medijana: za ordinalne podatke, ili kada postoje ekstremni rezultati.
+
+137
+00:10:05.336 --> 00:10:10.256
+Aritmetička sredina: za podatke na intervalnoj i racionalnoj skali,
+
+138
+00:10:10.326 --> 00:10:12.376
+bez ekstremnih rezultata.
+
+139
+00:10:14.416 --> 00:10:16.816
+Izbor mere zavisi od skale.
+
+140
+00:10:16.856 --> 00:10:22.336
+Zato u programu prvo proverite vrstu varijable: Jamovi je sam ne prepoznaje uvek
+
+141
+00:10:22.416 --> 00:10:22.976
+tačno.
+
+142
+00:10:23.016 --> 00:10:26.256
+Broj ponavljanja, ceo broj sa malo različitih vrednosti,
+
+143
+00:10:26.416 --> 00:10:28.816
+može da označi kao kategoriju.
+
+144
+00:10:28.856 --> 00:10:31.936
+Vrstu varijable podešavate vi, kao u prošloj vežbi.
+
+145
+00:10:33.970 --> 00:10:36.450
+Prvo pitanje je, dakle, uvek isto.
+
+146
+00:10:36.477 --> 00:10:38.530
+Na kojoj je skali varijabla?
+
+147
+00:10:40.881 --> 00:10:42.321
+Da bi grupa bila opisana,
+
+148
+00:10:42.441 --> 00:10:47.441
+pored toga oko koje vrednosti se rezultati grupišu treba znati i koliko se
+
+149
+00:10:47.481 --> 00:10:53.601
+rezultati unutar grupe međusobno razlikuju: to pokazuju mere disperzije.
+
+150
+00:10:53.661 --> 00:10:59.281
+Najjednostavnija mera je raspon, R: najveća minus najmanja vrednost.
+
+151
+00:10:59.361 --> 00:11:03.841
+Raspon visine skoka košarkaša je osam zapeta dva centimetra.
+
+152
+00:11:05.869 --> 00:11:09.789
+Raspon studenata je četrnaest zapeta tri centimetra.
+
+153
+00:11:11.839 --> 00:11:17.599
+Na osi se vidi i poređenje: manji raspon ima homogenija grupa, košarkaši.
+
+154
+00:11:17.679 --> 00:11:21.839
+Raspon je prvi broj koji pokazuje ono što smo na početku videli okom.
+
+155
+00:11:23.870 --> 00:11:28.430
+Raspon se lako računa, ali koristi samo dva podatka.
+
+156
+00:11:28.457 --> 00:11:31.310
+Da najbolji student nije došao na testiranje,
+
+157
+00:11:31.390 --> 00:11:35.710
+raspon studenata bio bi manji za dva zapeta četiri centimetra.
+
+158
+00:11:37.756 --> 00:11:41.756
+Mera otpornija na ekstremne rezultate je međukvartilna razlika.
+
+159
+00:11:41.783 --> 00:11:46.236
+Kvartili dele poređan skup na četiri dela sa istim brojem podataka.
+
+160
+00:11:46.276 --> 00:11:50.076
+Ispod prvog kvartila, Q jedan, je četvrtina podataka.
+
+161
+00:11:52.112 --> 00:11:57.392
+Ispod trećeg kvartila, Q tri, su tri četvrtine, a iznad njega četvrtina.
+
+162
+00:11:59.441 --> 00:12:05.281
+Razlika Q tri minus Q jedan obuhvata srednju polovinu podataka.
+
+163
+00:12:05.321 --> 00:12:11.441
+Kod studenata: trideset osam zapeta šest minus trideset jedan zapeta tri,
+
+164
+00:12:11.501 --> 00:12:13.601
+sedam zapeta tri centimetra.
+
+165
+00:12:13.641 --> 00:12:18.721
+Četvrtina najmanjih i četvrtina najvećih rezultata ne ulaze u račun.
+
+166
+00:12:20.771 --> 00:12:25.171
+Na osi, srednja polovina košarkaša široka je četiri centimetra.
+
+167
+00:12:27.212 --> 00:12:30.572
+Kod studenata sedam zapeta tri centimetra.
+
+168
+00:12:30.612 --> 00:12:35.692
+Kao i medijana, međukvartilna razlika zavisi samo od redosleda podataka.
+
+169
+00:12:35.732 --> 00:12:41.772
+Zato ide uz medijanu: za ordinalne podatke i kada postoje ekstremni rezultati.
+
+170
+00:12:43.815 --> 00:12:45.655
+Jedna praktična napomena.
+
+171
+00:12:45.708 --> 00:12:48.535
+Za kvartile ne postoji jedno pravilo.
+
+172
+00:12:48.588 --> 00:12:52.722
+Excel ima dve funkcije: Jamovi računa kao QUARTILE.
+
+173
+00:12:52.722 --> 00:12:56.055
+INC, a SPSS kao QUARTILE.
+
+174
+00:12:56.055 --> 00:12:56.775
+EXC.
+
+175
+00:12:58.824 --> 00:13:04.904
+Kod malog broja podataka razlika može biti primetna: dve funkcije u Excelu daju za
+
+176
+00:13:04.974 --> 00:13:09.944
+studente sedam zapeta tri i devet zapeta devet centimetara.
+
+177
+00:13:09.984 --> 00:13:13.464
+Kod većeg broja podataka razlike su zanemarljive.
+
+178
+00:13:13.504 --> 00:13:17.944
+Uzmite vrednost koju daje program, i navedite koji ste program koristili.
+
+179
+00:13:19.971 --> 00:13:23.011
+Raspon i kvartili koriste samo neke podatke.
+
+180
+00:13:23.059 --> 00:13:25.091
+Varijansa koristi sve.
+
+181
+00:13:25.151 --> 00:13:30.531
+Polazi od odstupanja, d: razlike svakog podatka od aritmetičke sredine.
+
+182
+00:13:32.577 --> 00:13:38.417
+Rezultati nekih košarkaša su iznad aritmetičke sredine, a nekih ispod.
+
+183
+00:13:38.457 --> 00:13:44.337
+Kao kod težišta, odstupanja ispod i iznad aritmetičke sredine se poništavaju: zbir
+
+184
+00:13:44.417 --> 00:13:46.017
+im je uvek nula.
+
+185
+00:13:48.056 --> 00:13:50.856
+Zato se svako odstupanje kvadrira.
+
+186
+00:13:50.909 --> 00:13:53.256
+Kvadrat odstupanja nikad nije negativan,
+
+187
+00:13:53.296 --> 00:13:56.616
+a veliko odstupanje daje mnogo veći kvadrat.
+
+188
+00:13:58.651 --> 00:14:04.331
+Zbir kvadrata odstupanja košarkaša je osamdeset devet zapeta jedan kvadratnih
+
+189
+00:14:04.395 --> 00:14:05.371
+centimetara.
+
+190
+00:14:07.416 --> 00:14:14.296
+Varijansa, V, je aritmetička sredina kvadrata odstupanja: zbir kvadrata podeljen
+
+191
+00:14:14.356 --> 00:14:15.576
+brojem podataka.
+
+192
+00:14:15.736 --> 00:14:20.136
+Za košarkaše, osam zapeta deset kvadratnih centimetara.
+
+193
+00:14:22.164 --> 00:14:25.684
+Kvadratni centimetri visine skoka nemaju jasno značenje.
+
+194
+00:14:25.724 --> 00:14:31.284
+Zato se uzme kvadratni koren varijanse: standardna devijacija, sigma.
+
+195
+00:14:31.316 --> 00:14:32.964
+Varijansa je površina kvadrata,
+
+196
+00:14:33.004 --> 00:14:37.844
+a standardna devijacija njegova stranica: dva zapeta osamdeset pet centimetara,
+
+197
+00:14:38.044 --> 00:14:40.884
+u istim jedinicama kao podaci.
+
+198
+00:14:40.937 --> 00:14:44.084
+Ovako se računa kada imamo podatke cele populacije.
+
+199
+00:14:46.133 --> 00:14:48.853
+Ali ovih jedanaest košarkaša je uzorak.
+
+200
+00:14:48.893 --> 00:14:53.813
+Pomoću njih procenjujemo koliko rezultati sličnih igrača uopšte odstupaju od
+
+201
+00:14:53.866 --> 00:14:55.493
+aritmetičke sredine.
+
+202
+00:14:55.553 --> 00:15:00.213
+Tada se zbir kvadrata deli sa N minus jedan, sa deset.
+
+203
+00:15:00.261 --> 00:15:05.735
+Varijansa je osam zapeta devedeset jedan, a standardna devijacija, SD,
+
+204
+00:15:05.788 --> 00:15:07.655
+skoro tri centimetra.
+
+205
+00:15:07.735 --> 00:15:13.255
+Za iste podatke, deljenje sa N minus jedan uvek daje nešto veću vrednost.
+
+206
+00:15:13.335 --> 00:15:14.455
+Zašto N minus jedan?
+
+207
+00:15:16.502 --> 00:15:18.742
+Zbog stepeni slobode.
+
+208
+00:15:18.782 --> 00:15:23.702
+Uzmimo četiri skoka sa aritmetičkom sredinom trideset pet centimetara.
+
+209
+00:15:23.782 --> 00:15:26.262
+Zbir mora biti sto četrdeset.
+
+210
+00:15:28.298 --> 00:15:33.178
+Ako je prvi skok trideset tri, ostala tri i dalje mogu da budu bilo koja,
+
+211
+00:15:33.258 --> 00:15:35.818
+samo da zbir ostane sto četrdeset.
+
+212
+00:15:37.847 --> 00:15:42.487
+Ako je i drugi zadat, trideset šest, preostala dva i dalje mogu da variraju.
+
+213
+00:15:44.523 --> 00:15:48.603
+Ali kada su zadata tri, četvrti više nije slobodan.
+
+214
+00:15:48.643 --> 00:15:52.763
+Mora biti trideset tri, da bi zbir bio sto četrdeset.
+
+215
+00:15:54.804 --> 00:15:57.524
+Slobodna su tri od četiri.
+
+216
+00:15:57.551 --> 00:16:01.364
+To je broj stepeni slobode, df: N minus jedan.
+
+217
+00:16:01.404 --> 00:16:06.804
+Isto je sa odstupanjima od aritmetičke sredine uzorka: zbir im mora biti nula,
+
+218
+00:16:06.831 --> 00:16:09.444
+pa je slobodno N minus jedan.
+
+219
+00:16:09.524 --> 00:16:12.404
+Zato se kod uzorka deli sa N minus jedan.
+
+220
+00:16:12.564 --> 00:16:17.284
+Jamovi i SPSS tako računaju, a u Excelu se bira funkcija za uzorak.
+
+221
+00:16:19.322 --> 00:16:20.442
+Poslednja mera.
+
+222
+00:16:20.495 --> 00:16:25.402
+Da li su košarkaši homogeniji po visini skoka ili po trajanju odraza?
+
+223
+00:16:25.462 --> 00:16:28.282
+Jedno je u centimetrima, drugo u milisekundama,
+
+224
+00:16:28.335 --> 00:16:31.242
+pa se standardne devijacije ne mogu porediti.
+
+225
+00:16:33.286 --> 00:16:38.966
+Zato standardnu devijaciju podelimo aritmetičkom sredinom i pomnožimo sa sto,
+
+226
+00:16:39.073 --> 00:16:43.126
+da bismo dobili procente: to je koeficijent varijacije.
+
+227
+00:16:43.366 --> 00:16:50.326
+Za visinu skoka sedam zapeta osam procenata, za trajanje odraza deset zapeta sedam.
+
+228
+00:16:52.370 --> 00:16:55.490
+Košarkaši su homogeniji po visini skoka.
+
+229
+00:16:55.517 --> 00:17:00.690
+Koeficijent varijacije ima smisla samo na racionalnoj skali, sa pravom nulom.
+
+230
+00:17:02.729 --> 00:17:07.289
+Dakle: uz medijanu idu kvartili i međukvartilna razlika,
+
+231
+00:17:07.329 --> 00:17:11.769
+a uz aritmetičku sredinu varijansa i standardna devijacija.
+
+232
+00:17:13.820 --> 00:17:16.460
+Sada možemo da napišemo izveštaj.
+
+233
+00:17:16.540 --> 00:17:21.900
+Uz aritmetičku sredinu ide standardna devijacija, a uz medijanu kvartili.
+
+234
+00:17:21.927 --> 00:17:27.100
+Košarkaši: trideset osam zapeta jedan, plus-minus tri centimetra.
+
+235
+00:17:29.142 --> 00:17:34.182
+Kod studenata tri rezultata preko četrdeset centimetara vuku aritmetičku sredinu
+
+236
+00:17:34.222 --> 00:17:39.582
+naviše, pa je medijana sa kvartilima bolji opis: trideset dva zapeta osam,
+
+237
+00:17:39.682 --> 00:17:44.423
+a srednja polovina od trideset jedan zapeta tri do trideset osam zapeta šest
+
+238
+00:17:44.519 --> 00:17:45.543
+centimetara.
+
+239
+00:17:47.573 --> 00:17:48.213
+I granica.
+
+240
+00:17:48.613 --> 00:17:52.773
+Ova tabela opisuje ovih dvadeset dva ispitanika.
+
+241
+00:17:52.826 --> 00:17:56.453
+Ona ne kaže da košarkaši uopšte skaču više od studenata.
+
+242
+00:17:56.533 --> 00:18:00.933
+Za takav zaključak treba proveriti da li je razlika veća od one koju bi napravio
+
+243
+00:18:01.073 --> 00:18:02.293
+slučaj.
+
+244
+00:18:02.346 --> 00:18:05.573
+To rade statistički testovi, u kasnijim lekcijama.
+
+245
+00:18:07.624 --> 00:18:10.104
+Šta da ponesete iz ove lekcije?
+
+246
+00:18:10.157 --> 00:18:12.904
+Prvo: grupu opisuju dve mere,
+
+247
+00:18:12.944 --> 00:18:17.784
+uvek zajedno: oko koje vrednosti se rezultati grupišu i koliko se unutar grupe
+
+248
+00:18:17.891 --> 00:18:19.464
+međusobno razlikuju.
+
+249
+00:18:21.509 --> 00:18:28.149
+Drugo: za ordinalne podatke i kada postoje ekstremni rezultati, medijana i kvartili.
+
+250
+00:18:30.510 --> 00:18:34.510
+Treće: inače aritmetička sredina i standardna devijacija.
+
+251
+00:18:36.559 --> 00:18:42.479
+I četvrto: kod uzorka se varijansa i standardna devijacija računaju deljenjem sa N
+
+252
+00:18:42.572 --> 00:18:43.599
+minus jedan.
+
+253
+00:18:44.079 --> 00:18:48.879
+Kako se pomoću aritmetičke sredine i standardne devijacije porede pojedinačni
+
+254
+00:18:48.919 --> 00:18:51.839
+rezultati, videćemo u sledećoj lekciji.
+
+255
+00:18:53.867 --> 00:18:58.587
+U četvrtak radite na podacima školskog testiranja: uzorak od sto dvadeset pet
+
+256
+00:18:58.667 --> 00:19:04.187
+učenika osmog razreda, dečaci i devojčice, i tri testa: ležanje-sed,
+
+257
+00:19:04.240 --> 00:19:07.387
+skok udalj iz mesta i izdržaj u zgibu.
+
+258
+00:19:07.440 --> 00:19:11.867
+Prvo, u Jamovi-ju proverite vrstu svake varijable i pogledajte histograme.
+
+259
+00:19:13.918 --> 00:19:19.998
+Drugo, napravite tabelu deskriptivnih pokazatelja, posebno za dečake i za devojčice.
+
+260
+00:19:22.030 --> 00:19:24.790
+Treće, u Excelu, na deset učenika,
+
+261
+00:19:24.830 --> 00:19:28.990
+odredite medijanu i izračunajte standardnu devijaciju korak po korak,
+
+262
+00:19:29.070 --> 00:19:30.110
+kao na predavanju.
+
+263
+00:19:32.154 --> 00:19:37.914
+Četvrto, izračunajte koeficijent varijacije i utvrdite u kom testu se rezultati
+
+264
+00:19:37.994 --> 00:19:40.634
+učenika najviše međusobno razlikuju.
+
+265
+00:19:42.670 --> 00:19:49.630
+I peto, na osnovu dobijenih rezultata napišite kratak opis grupe: koliki je tipičan
+
+266
+00:19:49.690 --> 00:19:53.790
+rezultat, i koliko se rezultati međusobno razlikuju.
