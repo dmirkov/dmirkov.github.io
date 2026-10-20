@@ -7,8 +7,13 @@ a{color:var(--acc);text-decoration-thickness:1px;text-underline-offset:3px}
 a:hover{text-decoration-thickness:2px}
 .wrap{max-width:900px;margin:0 auto;padding:0 20px}
 header.site{padding:22px 0 10px}
-header.site a{color:var(--ink);text-decoration:none;font-weight:600;font-size:20px}
+header.site .ime{color:var(--ink);text-decoration:none;font-weight:600;font-size:20px}
 header.site .zvanje{color:var(--muted);font-size:16px;margin-top:2px}
+nav.mrvice{margin:14px 0 0;padding:8px 0;border-top:1px solid #DDD8D0;border-bottom:1px solid #DDD8D0;font-size:16px;
+color:var(--muted)}
+nav.mrvice a{color:var(--acc);text-decoration:none;font-weight:600}nav.mrvice a:hover{text-decoration:underline}
+nav.mrvice .sep{margin:0 8px;color:var(--faded)}
+h1.lek{margin-top:32px}
 .siv{color:var(--muted);font-size:16px;margin:36px 0 4px}
 h1{font-size:40px;line-height:1.15;margin:0 0 12px;letter-spacing:-.01em}
 .istaknut{color:var(--acc);font-weight:600;font-size:21px;margin:0 0 28px}
