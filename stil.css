@@ -6,6 +6,15 @@ Roboto,"Helvetica Neue",Arial,sans-serif}
 a{color:var(--acc);text-decoration-thickness:1px;text-underline-offset:3px}
 a:hover{text-decoration-thickness:2px}
 .wrap{max-width:900px;margin:0 auto;padding:0 20px}
+nav.glavni{display:flex;align-items:center;gap:18px;padding:14px 0;border-bottom:1px solid #DDD8D0}
+nav.glavni .ime{color:var(--ink);text-decoration:none;font-weight:700;font-size:19px;white-space:nowrap}
+nav.glavni .meni{display:flex;gap:4px 16px;flex-wrap:wrap;margin-left:auto;justify-content:flex-end}
+nav.glavni .meni a{color:var(--muted);text-decoration:none;font-size:16px;padding:4px 0;border-bottom:2px solid transparent;
+white-space:nowrap}
+nav.glavni .meni a:hover{color:var(--acc)}
+nav.glavni .meni a[aria-current]{color:var(--acc);border-bottom-color:var(--acc)}
+.uvodni{font-size:21px;line-height:1.5;max-width:40em;margin:0 0 8px}
+.linkovi{list-style:none;padding:0;margin:8px 0}.linkovi li{margin:8px 0}
 header.site{padding:22px 0 10px}
 header.site .ime{color:var(--ink);text-decoration:none;font-weight:600;font-size:20px}
 header.site .zvanje{color:var(--muted);font-size:16px;margin-top:2px}
@@ -70,7 +79,7 @@ vertical-align:-1px;border:2px solid var(--faded)}
 .put li{position:relative;padding:0 0 22px 44px;margin:0}
 .put .d{position:absolute;left:3px;top:5px;width:18px;height:18px;border-radius:50%;background:var(--bg);
 border:2px solid var(--faded)}
-.put .novi .d{background:var(--acc);border-color:var(--acc)}.put .stari .d{border-color:var(--ref);border-width:3px}
+.put .novi .d{background:var(--acc);border-color:var(--acc)}.put .iz2025 .d{border-color:var(--ref);border-width:3px}
 .put .br{color:var(--muted);font-size:14px}
 .put .nz{font-size:20px;font-weight:600;line-height:1.3}.put a{text-decoration:none;color:var(--ink)}
 .put a:hover .nz{color:var(--acc)}
@@ -83,6 +92,8 @@ footer{margin:64px 0 0;padding:20px 0 40px;border-top:1px solid var(--faded);col
 footer a{color:var(--muted)}
 @media (max-width:600px){body{font-size:18px}h1{font-size:31px}h2{font-size:23px}
 .istaknut{font-size:19px}}
-@media (max-width:700px){.hero{grid-template-columns:1fr;padding-top:24px}
+@media (max-width:700px){nav.glavni{flex-wrap:wrap;gap:6px}
+nav.glavni .meni{margin-left:0;justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;width:100%;
+padding-bottom:4px;-webkit-overflow-scrolling:touch}.hero{grid-template-columns:1fr;padding-top:24px}
 .omeni{grid-template-columns:1fr}
 .traka{grid-template-columns:96px 1fr;gap:14px}.traka .nz{font-size:17px}.put .prev{width:100%}}
