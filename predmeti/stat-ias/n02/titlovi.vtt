@@ -198,7 +198,7 @@ Zašto je ovo važno?
 
 50
 00:05:23.325 --> 00:05:28.285
-Zato što u Jamovi-ju analizu biramo prevlačenjem kolona u polja.
+Zato što u Džamoviju analizu biramo prevlačenjem kolona u polja.
 
 51
 00:05:28.338 --> 00:05:34.525
@@ -342,7 +342,7 @@ Sada statistički program zna šta je šta.
 
 86
 00:07:53.029 --> 00:07:58.189
-U Excelu se to radi tako što se kolone tabela premeštaju jedna ispod druge,
+U Ekselu se to radi tako što se kolone tabela premeštaju jedna ispod druge,
 
 87
 00:07:58.259 --> 00:08:03.029
@@ -374,11 +374,11 @@ položio ili nije položio.
 
 94
 00:08:22.800 --> 00:08:25.440
-U Excelu se za to koristi funkcija VLOOKUP,
+U Ekselu se za to koristi funkcija VLOOKUP,
 
 95
 00:08:25.500 --> 00:08:28.520
-a u Jamovi-ju pravila u opciji Transform.
+a u Džamoviju pravila u opciji Transform.
 
 96
 00:08:28.560 --> 00:08:31.160

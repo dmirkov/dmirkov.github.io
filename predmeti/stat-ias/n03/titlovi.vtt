@@ -414,7 +414,7 @@ Medijana ne mora biti jedan od podataka.
 
 104
 00:07:36.723 --> 00:07:42.056
-To je ceo postupak, i Excel, Jamovi i SPSS daju istu medijanu.
+To je ceo postupak, i Eksel, Džamovi i SPSS daju istu medijanu.
 
 105
 00:07:44.102 --> 00:07:45.622
@@ -558,7 +558,7 @@ Izbor mere zavisi od skale.
 
 140
 00:10:16.856 --> 00:10:22.336
-Zato u programu prvo proverite vrstu varijable: Jamovi je sam ne prepoznaje uvek
+Zato u programu prvo proverite vrstu varijable: Džamovi je sam ne prepoznaje uvek
 
 141
 00:10:22.416 --> 00:10:22.976
@@ -686,7 +686,7 @@ Za kvartile ne postoji jedno pravilo.
 
 172
 00:12:48.588 --> 00:12:52.722
-Excel ima dve funkcije: Jamovi računa kao QUARTILE.
+Eksel ima dve funkcije: Džamovi računa kao QUARTILE.
 
 173
 00:12:52.722 --> 00:12:56.055
@@ -698,7 +698,7 @@ EXC.
 
 175
 00:12:58.824 --> 00:13:04.904
-Kod malog broja podataka razlika može biti primetna: dve funkcije u Excelu daju za
+Kod malog broja podataka razlika može biti primetna: dve funkcije u Ekselu daju za
 
 176
 00:13:04.974 --> 00:13:09.944
@@ -878,7 +878,7 @@ Zato se kod uzorka deli sa N minus jedan.
 
 220
 00:16:12.564 --> 00:16:17.284
-Jamovi i SPSS tako računaju, a u Excelu se bira funkcija za uzorak.
+Džamovi i SPSS tako računaju, a u Ekselu se bira funkcija za uzorak.
 
 221
 00:16:19.322 --> 00:16:20.442
@@ -1030,7 +1030,7 @@ skok udalj iz mesta i izdržaj u zgibu.
 
 258
 00:19:07.440 --> 00:19:11.867
-Prvo, u Jamovi-ju proverite vrstu svake varijable i pogledajte histograme.
+Prvo, u Džamoviju proverite vrstu svake varijable i pogledajte histograme.
 
 259
 00:19:13.918 --> 00:19:19.998
@@ -1038,7 +1038,7 @@ Drugo, napravite tabelu deskriptivnih pokazatelja, posebno za dečake i za devoj
 
 260
 00:19:22.030 --> 00:19:24.790
-Treće, u Excelu, na deset učenika,
+Treće, u Ekselu, na deset učenika,
 
 261
 00:19:24.830 --> 00:19:28.990
