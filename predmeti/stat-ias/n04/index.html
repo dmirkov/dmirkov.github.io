@@ -17,7 +17,8 @@
 <h2>Posle ovog časa treba da znate</h2>
 <ul><li>čemu služi standardizovani rezultat</li><li>percentilni rang rezultata i rezultat za dati percentil</li><li>zašto percentilna skala nije linearna</li><li>Z i T vrednost, i kada se znak okreće</li><li>kako se pravi zbirna ocena iz više testova</li></ul>
 <h2>Predavanje</h2>
-<video id="v-pred" controls preload="metadata" poster="naslov.jpg"><source src="STAT_IAS_N04_Video_SR.mp4" type="video/mp4"></video>
+<video id="v-pred" controls preload="metadata" poster="naslov.jpg"><source src="STAT_IAS_N04_Video_SR.mp4" type="video/mp4"><track kind="subtitles" srclang="sr" label="Srpski" src="titlovi.vtt"></video>
+<ul class="poglavlja"><li><a href="STAT_IAS_N04_Video_SR.mp4#t=0" data-v="v-pred" data-t="0.0"><span class="t">0:00</span><span>Uvod</span></a></li><li><a href="STAT_IAS_N04_Video_SR.mp4#t=114" data-v="v-pred" data-t="114.2"><span class="t">1:54</span><span>Standardizovani rezultat</span></a></li><li><a href="STAT_IAS_N04_Video_SR.mp4#t=307" data-v="v-pred" data-t="306.6"><span class="t">5:07</span><span>Percentili</span></a></li><li><a href="STAT_IAS_N04_Video_SR.mp4#t=346" data-v="v-pred" data-t="346.1"><span class="t">5:46</span><span>Računanje percentila</span></a></li><li><a href="STAT_IAS_N04_Video_SR.mp4#t=503" data-v="v-pred" data-t="503.3"><span class="t">8:23</span><span>Skale zasnovane na percentilima</span></a></li><li><a href="STAT_IAS_N04_Video_SR.mp4#t=597" data-v="v-pred" data-t="596.7"><span class="t">9:57</span><span>Ograničenja percentila</span></a></li><li><a href="STAT_IAS_N04_Video_SR.mp4#t=758" data-v="v-pred" data-t="758.1"><span class="t">12:38</span><span>Normalna raspodela</span></a></li><li><a href="STAT_IAS_N04_Video_SR.mp4#t=1004" data-v="v-pred" data-t="1004.0"><span class="t">16:44</span><span>Z vrednost</span></a></li><li><a href="STAT_IAS_N04_Video_SR.mp4#t=1428" data-v="v-pred" data-t="1427.5"><span class="t">23:48</span><span>T vrednost i zbirna ocena</span></a></li><li><a href="STAT_IAS_N04_Video_SR.mp4#t=1702" data-v="v-pred" data-t="1702.0"><span class="t">28:22</span><span>Za poneti</span></a></li></ul>
 <ul class="fajlovi"><li><a href="STAT_IAS_N04_Video_SR.mp4" download>Video predavanja</a> <span class="vel">MP4, 30,1 MB</span></li><li><a href="STAT_IAS_N04_Prezentacija_SR.pdf" target="_blank" rel="noopener">Slajdovi predavanja</a> <span class="vel">PDF, 4,8 MB · <a href="STAT_IAS_N04_Prezentacija_SR.pdf" download>sačuvaj na računaru</a></span></li></ul>
 <h3>Za poneti</h3>
 <ul><li>Rezultat ima smisao tek u svojoj grupi</li><li>Percentil: udeo jednakih ili manjih; skala nije linearna</li><li>Z: udaljenost u SD; kad je manje bolje, okreni znak</li><li>T = 10 · Z + 50; zbirna ocena uz pojedinačne testove</li></ul>
@@ -36,6 +37,10 @@
 <p>Upotreba veštačke inteligencije: autor je vodio izradu sajta i materijala od ideje do gotovog sadržaja — osmislio ih je, postavio pravila pisanja i upotrebe jezika i proverio svaki deo. Kao pomoć su korišćeni Claude Code (Anthropic) i Codex (OpenAI), asistenti zasnovani na veštačkoj inteligenciji: za pisanje programa kojima su napravljeni sajt, slajdovi, slike i dokumenti, za predloge teksta i za jezičku proveru po pravilima autora. Za sadržaj odgovara autor. Napomena se odnosi na sajt i na materijale izrađene od 2026. godine.</p>
 </footer>
 </div>
-
+<script>
+document.querySelectorAll('a[data-t]').forEach(function(a){a.addEventListener('click',function(e){
+var v=document.getElementById(a.dataset.v);if(!v)return;e.preventDefault();v.currentTime=+a.dataset.t;v.play();
+v.scrollIntoView({behavior:'smooth',block:'center'});});});
+</script>
 </body>
 </html>
