@@ -1,0 +1,997 @@
+WEBVTT
+
+1
+00:00:00.600 --> 00:00:01.560
+Dobar dan.
+
+2
+00:00:01.600 --> 00:00:06.760
+Ovo je peta lekcija kursa Uvod u statistiku u fizičkom vaspitanju i sportu.
+
+3
+00:00:06.820 --> 00:00:10.920
+Tema je korelacija: kako opisujemo da li dve varijable,
+
+4
+00:00:10.973 --> 00:00:13.960
+izmerene na istim učenicima, idu zajedno.
+
+5
+00:00:14.013 --> 00:00:19.880
+Na primer, da li učenici koji dalje skaču udalj iz mesta brže pretrče četiri puta
+
+6
+00:00:19.973 --> 00:00:21.480
+deset metara.
+
+7
+00:00:21.560 --> 00:00:26.520
+Učimo kako se takva veza vidi na dijagramu, kako se opisuje jednim brojem,
+
+8
+00:00:26.568 --> 00:00:32.200
+kako se ocenjuje koliko je taj broj velik, i kada taj broj može da nas zavara.
+
+9
+00:00:34.234 --> 00:00:35.754
+Čas ima pet delova.
+
+10
+00:00:35.994 --> 00:00:42.314
+Prvi: tačkasti dijagram, na kome se veza dve varijable vidi pre svakog računa.
+
+11
+00:00:44.358 --> 00:00:48.518
+Drugi: koeficijent korelacije, broj koji tu vezu opisuje,
+
+12
+00:00:48.718 --> 00:00:51.798
+i kako se računa iz Z vrednosti.
+
+13
+00:00:53.829 --> 00:00:58.549
+Treći: kako ocenjujemo koliko je koeficijent korelacije velik.
+
+14
+00:01:00.584 --> 00:01:04.024
+Četvrti: tri zamke u tumačenju korelacije.
+
+15
+00:01:06.058 --> 00:01:08.698
+I peti: korelacija u Džamoviju.
+
+16
+00:01:10.749 --> 00:01:15.229
+Posle ovog časa treba da znate da pročitate tačkasti dijagram, odnosno smer,
+
+17
+00:01:15.389 --> 00:01:17.789
+oblik i raspršenost tačaka.
+
+18
+00:01:19.828 --> 00:01:25.268
+Treba da znate da izračunate koeficijent korelacije iz Z vrednosti i da objasnite
+
+19
+00:01:25.348 --> 00:01:28.068
+zašto njegov predznak pokazuje smer veze.
+
+20
+00:01:30.109 --> 00:01:33.149
+Da ocenite koliko je koeficijent korelacije velik,
+
+21
+00:01:33.309 --> 00:01:37.869
+uz pomoć koeficijenta determinacije, r na kvadrat.
+
+22
+00:01:39.919 --> 00:01:43.999
+I da prepoznate tri zamke: korelacija ne pokazuje uzrok,
+
+23
+00:01:44.079 --> 00:01:45.999
+ne opisuje krivolinijsku vezu,
+
+24
+00:01:46.199 --> 00:01:50.079
+i menja se kada se spoje grupe koje se međusobno razlikuju.
+
+25
+00:01:52.107 --> 00:01:54.107
+Počnimo pitanjem iz škole.
+
+26
+00:01:54.134 --> 00:01:58.987
+Da li teži učenici postižu lošije rezultate u čunastom trčanju?
+
+27
+00:01:59.147 --> 00:02:05.547
+Rezultat tog testa je vreme trčanja u sekundama: ko duže trči, ima bolji rezultat.
+
+28
+00:02:05.600 --> 00:02:10.907
+Za sto dvadeset pet učenika osmog razreda imamo telesnu masu i rezultat čunastog
+
+29
+00:02:10.987 --> 00:02:14.907
+trčanja, iz testiranja koje znate iz prethodnih lekcija.
+
+30
+00:02:14.960 --> 00:02:17.067
+Odgovor ćemo dati na kraju časa,
+
+31
+00:02:17.107 --> 00:02:20.827
+kada budemo znali kako se veza meri i gde se krije zamka.
+
+32
+00:02:22.868 --> 00:02:28.308
+Svaki učenik ima rezultate u dva testa: u skoku udalj iz mesta i u trčanju četiri
+
+33
+00:02:28.372 --> 00:02:29.988
+puta deset metara.
+
+34
+00:02:30.041 --> 00:02:33.748
+Rezultat skoka određuje položaj tačke na horizontalnoj osi,
+
+35
+00:02:33.788 --> 00:02:36.868
+a rezultat trčanja na vertikalnoj osi.
+
+36
+00:02:36.948 --> 00:02:40.468
+Učenik broj tri skočio je sto šezdeset jedan centimetar,
+
+37
+00:02:40.548 --> 00:02:45.748
+a četiri puta deset metara pretrčao je za jedanaest zapeta trideset sekundi.
+
+38
+00:02:45.801 --> 00:02:47.668
+To je jedna tačka.
+
+39
+00:02:49.710 --> 00:02:51.950
+Kada tako nacrtamo sve učenike,
+
+40
+00:02:52.010 --> 00:02:59.070
+dobijamo tačkasti dijagram: sto dvadeset pet tačaka, po jedna za svakog učenika.
+
+41
+00:02:59.150 --> 00:03:04.990
+Iz oblaka tačaka čitamo tri stvari: smer, oblik i raspršenost.
+
+42
+00:03:07.018 --> 00:03:07.578
+Prvo smer.
+
+43
+00:03:07.778 --> 00:03:14.058
+Oblak se spušta udesno: učenici koji dalje skaču u proseku pretrče četiri puta
+
+44
+00:03:14.125 --> 00:03:16.378
+deset metara za kraće vreme.
+
+45
+00:03:16.431 --> 00:03:19.978
+Veće vrednosti jedne varijable idu uz manje vrednosti druge,
+
+46
+00:03:20.138 --> 00:03:22.698
+i to je negativna korelacija.
+
+47
+00:03:22.758 --> 00:03:27.338
+Negativna ne znači loša: u trčanju je kraće vreme bolji rezultat,
+
+48
+00:03:27.365 --> 00:03:32.298
+pa su učenici koji su bolji u skoku u proseku bolji i u trčanju.
+
+49
+00:03:34.331 --> 00:03:35.851
+Drugo, oblik.
+
+50
+00:03:35.984 --> 00:03:39.931
+Tačke se raspoređuju oko prave linije, a ne oko krive.
+
+51
+00:03:39.991 --> 00:03:43.691
+Takva veza se zove linearna, ili pravolinijska.
+
+52
+00:03:43.718 --> 00:03:48.411
+Koeficijent korelacije koji danas učimo opisuje samo takvu vezu.
+
+53
+00:03:50.437 --> 00:03:54.837
+Treće, raspršenost: koliko su tačke udaljene od prave.
+
+54
+00:03:55.077 --> 00:03:58.597
+Što su tačke bliže pravoj, to je veza čvršća,
+
+55
+00:03:58.717 --> 00:04:05.237
+i to pouzdanije iz rezultata u jednom testu možemo da procenimo rezultat u drugom.
+
+56
+00:04:05.290 --> 00:04:10.997
+Ovde su tačke prilično raspršene: ima učenika koji dobro skaču, a ipak sporo trče.
+
+57
+00:04:13.047 --> 00:04:16.407
+Drugi par testova: lezi-sedi i skok udalj.
+
+58
+00:04:16.594 --> 00:04:22.407
+Ovde oblak raste udesno: učenici koji urade više ponavljanja u testu lezi-sedi u
+
+59
+00:04:22.487 --> 00:04:24.487
+proseku dalje skaču.
+
+60
+00:04:24.540 --> 00:04:28.327
+Veće vrednosti jedne varijable idu uz veće vrednosti druge,
+
+61
+00:04:28.447 --> 00:04:30.487
+i to je pozitivna korelacija.
+
+62
+00:04:32.523 --> 00:04:36.123
+Treći par: pretklon u sedu i skok udalj.
+
+63
+00:04:36.303 --> 00:04:40.363
+Oblak nema smer: ni ne raste ni ne opada.
+
+64
+00:04:40.643 --> 00:04:46.603
+Učenici sa boljim rezultatom u pretklonu u proseku ne skaču ni dalje ni kraće od
+
+65
+00:04:46.663 --> 00:04:47.643
+ostalih.
+
+66
+00:04:47.696 --> 00:04:52.363
+Kažemo da između ova dva testa nema linearne povezanosti.
+
+67
+00:04:54.402 --> 00:05:00.082
+Smer, oblik i raspršenost vide se na dijagramu pre bilo kakvog računa.
+
+68
+00:05:00.122 --> 00:05:04.482
+Zato je prvi korak uvek isti: nacrtajte tačkasti dijagram.
+
+69
+00:05:06.512 --> 00:05:11.792
+Koeficijent korelacije je broj koji opisuje smer i čvrstinu linearne veze dve
+
+70
+00:05:11.832 --> 00:05:12.832
+varijable.
+
+71
+00:05:12.885 --> 00:05:15.392
+Označava se malim slovom r.
+
+72
+00:05:15.452 --> 00:05:19.792
+Pun naziv je Pirsonov koeficijent korelacije, po Karlu Pirsonu,
+
+73
+00:05:19.872 --> 00:05:22.672
+koji ga je razvio krajem devetnaestog veka.
+
+74
+00:05:22.712 --> 00:05:25.552
+Uvek je između minus jedan i plus jedan.
+
+75
+00:05:27.581 --> 00:05:30.141
+Predznak pokazuje smer.
+
+76
+00:05:30.181 --> 00:05:33.422
+Negativan koeficijent znači negativnu korelaciju,
+
+77
+00:05:33.521 --> 00:05:38.221
+kao kod skoka udalj i trčanja četiri puta deset metara.
+
+78
+00:05:38.281 --> 00:05:41.501
+Pozitivan koeficijent znači pozitivnu korelaciju,
+
+79
+00:05:41.561 --> 00:05:45.341
+kao kod testa lezi-sedi i skoka udalj.
+
+80
+00:05:47.371 --> 00:05:52.171
+Apsolutna vrednost, odnosno broj bez predznaka, pokazuje čvrstinu.
+
+81
+00:05:52.211 --> 00:05:56.491
+Kod minus jedan i plus jedan sve tačke leže tačno na pravoj.
+
+82
+00:05:56.531 --> 00:06:02.971
+Što je koeficijent bliži nuli, tačke su raspršenije, a kod nule nema linearne veze.
+
+83
+00:06:03.031 --> 00:06:07.531
+Minus nula zapeta šest i plus nula zapeta šest su jednako čvrste veze,
+
+84
+00:06:07.643 --> 00:06:09.691
+samo suprotnog smera.
+
+85
+00:06:11.731 --> 00:06:15.011
+Kako se koeficijent korelacije računa?
+
+86
+00:06:15.051 --> 00:06:21.651
+Pokazaćemo to na šest dečaka iz istog testiranja: to su učenici tri, sedam,
+
+87
+00:06:21.691 --> 00:06:25.811
+jedanaest, šesnaest, osamnaest i devetnaest.
+
+88
+00:06:25.864 --> 00:06:31.411
+Za svakog imamo rezultat u skoku udalj i rezultat u trčanju četiri puta deset
+
+89
+00:06:31.491 --> 00:06:32.531
+metara.
+
+90
+00:06:32.611 --> 00:06:35.971
+Desno su isti učenici na tačkastom dijagramu.
+
+91
+00:06:37.999 --> 00:06:43.679
+Prvi korak znate iz prethodne lekcije: svaki rezultat pretvaramo u Z vrednost.
+
+92
+00:06:43.759 --> 00:06:49.279
+Z vrednost kaže za koliko standardnih devijacija je rezultat iznad ili ispod
+
+93
+00:06:49.359 --> 00:06:51.519
+aritmetičke sredine grupe.
+
+94
+00:06:51.572 --> 00:06:56.959
+Za ovih šest dečaka aritmetička sredina skoka udalj je sto osamdeset šest zapeta
+
+95
+00:06:57.019 --> 00:07:02.879
+tri centimetra, a standardna devijacija dvadeset sedam zapeta dva centimetra.
+
+96
+00:07:02.959 --> 00:07:06.359
+Učenik tri skočio je sto šezdeset jedan centimetar,
+
+97
+00:07:06.399 --> 00:07:11.039
+pa je njegova Z vrednost minus nula zapeta devedeset tri.
+
+98
+00:07:11.119 --> 00:07:15.761
+Isto radimo za trčanje: aritmetička sredina je jedanaest zapeta tristo sedamnaest
+
+99
+00:07:15.840 --> 00:07:21.520
+sekundi, a standardna devijacija nula zapeta sedamsto osamdeset tri sekunde.
+
+100
+00:07:23.545 --> 00:07:28.905
+Drugi korak: za svakog učenika pomnožimo njegove dve Z vrednosti.
+
+101
+00:07:28.932 --> 00:07:33.065
+Na dijagramu su sada ucrtane aritmetičke sredine oba testa.
+
+102
+00:07:33.125 --> 00:07:35.785
+One dele dijagram na četiri polja.
+
+103
+00:07:35.865 --> 00:07:42.385
+Učenik koji je iznad aritmetičke sredine u oba testa, ili ispod nje u oba testa,
+
+104
+00:07:42.455 --> 00:07:47.625
+ima dve Z vrednosti istog znaka, pa je proizvod pozitivan.
+
+105
+00:07:47.705 --> 00:07:52.745
+Učenik koji je iznad aritmetičke sredine u jednom testu, a ispod nje u drugom,
+
+106
+00:07:52.885 --> 00:07:54.905
+ima negativan proizvod.
+
+107
+00:07:56.944 --> 00:07:59.504
+Pet od šest proizvoda je negativno.
+
+108
+00:07:59.584 --> 00:08:05.264
+Učenici koji su iznad aritmetičke sredine u skoku ispod nje su u vremenu trčanja,
+
+109
+00:08:05.317 --> 00:08:11.424
+odnosno trče brže, a oni koji su ispod nje u skoku iznad nje su u vremenu trčanja.
+
+110
+00:08:11.484 --> 00:08:14.224
+Jedini pozitivan proizvod ima učenik tri,
+
+111
+00:08:14.284 --> 00:08:17.624
+ali on je u trčanju skoro tačno na aritmetičkoj sredini,
+
+112
+00:08:17.691 --> 00:08:21.824
+pa je njegov proizvod nula zapeta nula dva, praktično nula.
+
+113
+00:08:23.865 --> 00:08:28.825
+Treći korak: saberemo proizvode i zbir podelimo sa N minus jedan,
+
+114
+00:08:28.905 --> 00:08:30.745
+gde je N broj učenika.
+
+115
+00:08:31.065 --> 00:08:34.665
+Zbir je minus tri zapeta trideset pet.
+
+116
+00:08:34.705 --> 00:08:40.345
+Podeljeno sa pet, koeficijent korelacije je minus nula zapeta šezdeset sedam.
+
+117
+00:08:40.405 --> 00:08:43.225
+Delimo sa N minus jedan, a ne sa N,
+
+118
+00:08:43.265 --> 00:08:48.185
+zato što smo Z vrednosti računali sa standardnom devijacijom u kojoj se deli sa N
+
+119
+00:08:48.252 --> 00:08:49.385
+minus jedan.
+
+120
+00:08:49.425 --> 00:08:53.305
+Tako dobijamo tačno Pirsonov koeficijent korelacije.
+
+121
+00:08:55.331 --> 00:09:01.171
+Isti račun na svih šezdeset dva dečaka daje minus nula zapeta šezdeset sedam,
+
+122
+00:09:01.331 --> 00:09:04.211
+a isti broj daje i Džamovi.
+
+123
+00:09:04.264 --> 00:09:06.771
+Ovih šest dečaka izabrali smo namerno,
+
+124
+00:09:06.835 --> 00:09:11.811
+tako da njihov koeficijent bude blizu koeficijenta svih dečaka.
+
+125
+00:09:11.851 --> 00:09:17.891
+Koliko se koeficijent menja od jedne šestorke do druge, videćemo u sledećem delu.
+
+126
+00:09:19.927 --> 00:09:26.327
+Koeficijent korelacije je zbir proizvoda Z vrednosti, podeljen sa N minus jedan.
+
+127
+00:09:26.367 --> 00:09:31.607
+Zato njegov predznak pokazuje smer: koeficijent je negativan kada preovlađuju
+
+128
+00:09:31.660 --> 00:09:37.607
+učenici koji su iznad aritmetičke sredine u jednom testu, a ispod nje u drugom.
+
+129
+00:09:39.638 --> 00:09:41.798
+Koliko je velik koeficijent korelacije?
+
+130
+00:09:41.998 --> 00:09:47.478
+Pomaže njegov kvadrat, r na kvadrat, koji se zove koeficijent determinacije.
+
+131
+00:09:47.538 --> 00:09:50.758
+Zamislite varijansu svake varijable kao krug.
+
+132
+00:09:50.798 --> 00:09:54.918
+Ako se krugovi ne preklapaju, linearne veze nema.
+
+133
+00:09:54.958 --> 00:09:58.438
+Ako se potpuno preklapaju, veza je savršena,
+
+134
+00:09:58.518 --> 00:10:03.558
+a koeficijent korelacije je minus jedan ili plus jedan.
+
+135
+00:10:03.598 --> 00:10:08.198
+Preklapanje je deo varijanse koji dve varijable dele, zajednička varijansa,
+
+136
+00:10:08.398 --> 00:10:10.598
+i jednako je r na kvadrat.
+
+137
+00:10:12.646 --> 00:10:18.406
+Za skok udalj i trčanje četiri puta deset metara, na svih sto dvadeset pet učenika,
+
+138
+00:10:18.459 --> 00:10:22.726
+koeficijent korelacije je minus nula zapeta šezdeset četiri.
+
+139
+00:10:22.779 --> 00:10:28.246
+Na kvadrat, to je nula zapeta četrdeset jedan: četrdeset jedan odsto varijanse je
+
+140
+00:10:28.366 --> 00:10:29.526
+zajedničko.
+
+141
+00:10:29.566 --> 00:10:34.566
+Preostalih pedeset devet odsto varijanse trčanja nije povezano sa rezultatom u
+
+142
+00:10:34.619 --> 00:10:35.126
+skoku.
+
+143
+00:10:37.163 --> 00:10:38.923
+Pazite na čestu grešku.
+
+144
+00:10:38.950 --> 00:10:44.283
+Koeficijent korelacije nula zapeta pet ne znači da je pola varijanse zajedničko.
+
+145
+00:10:44.310 --> 00:10:49.643
+Na kvadrat on daje nula zapeta dvadeset pet, pa je zajednička samo četvrtina.
+
+146
+00:10:49.670 --> 00:10:53.323
+Koeficijent nula zapeta tri daje samo devet odsto.
+
+147
+00:10:55.359 --> 00:10:57.759
+Koliko velik treba da bude koeficijent?
+
+148
+00:10:57.839 --> 00:11:01.519
+U knjizi Weira i Vincenta navodi se okvirna skala,
+
+149
+00:11:01.546 --> 00:11:07.199
+za predviđanje rezultata jednog ispitanika iz rezultata u drugoj varijabli.
+
+150
+00:11:07.239 --> 00:11:12.479
+Apsolutna vrednost od nula zapeta pet do nula zapeta sedam smatra se niskom,
+
+151
+00:11:12.532 --> 00:11:15.759
+od nula zapeta sedam do nula zapeta osam umerenom,
+
+152
+00:11:15.839 --> 00:11:18.799
+a nula zapeta devet i više dobrom.
+
+153
+00:11:18.879 --> 00:11:23.999
+Između nula zapeta osam i nula zapeta devet skala nema oznaku.
+
+154
+00:11:24.052 --> 00:11:28.319
+Koeficijent ispod nula zapeta pet može da opiše vezu u grupi,
+
+155
+00:11:28.379 --> 00:11:32.159
+ali je preslab za predviđanje rezultata jednog učenika.
+
+156
+00:11:32.212 --> 00:11:35.439
+Naš koeficijent, minus nula zapeta šezdeset četiri,
+
+157
+00:11:35.492 --> 00:11:41.359
+za to je nizak: iz rezultata u skoku udalj nastavnik ne može pouzdano da proceni
+
+158
+00:11:41.399 --> 00:11:43.519
+vreme trčanja pojedinog učenika.
+
+159
+00:11:45.555 --> 00:11:46.755
+Još jedno upozorenje.
+
+160
+00:11:46.968 --> 00:11:52.275
+Koeficijent izračunat na malom broju ispitanika može mnogo da se razlikuje od jedne
+
+161
+00:11:52.302 --> 00:11:53.955
+grupe do druge.
+
+162
+00:11:53.995 --> 00:11:58.836
+Kada dečake, redom kako su upisani u tabelu, podelimo u deset grupa po šest,
+
+163
+00:11:58.968 --> 00:12:05.155
+koeficijent se kreće od minus nula zapeta devedeset sedam do minus nula zapeta
+
+164
+00:12:05.235 --> 00:12:06.675
+trideset osam.
+
+165
+00:12:06.728 --> 00:12:12.035
+Na svih šezdeset dva dečaka je minus nula zapeta šezdeset sedam.
+
+166
+00:12:12.075 --> 00:12:17.395
+Što je uzorak manji, to manje poverenja imamo u koeficijent izračunat na njemu.
+
+167
+00:12:19.424 --> 00:12:21.664
+Koliko je koeficijent korelacije velik,
+
+168
+00:12:21.744 --> 00:12:27.424
+ocenjujemo preko koeficijenta determinacije i prema tome čemu služi.
+
+169
+00:12:27.531 --> 00:12:32.704
+Za opis veze u grupi dovoljan je manji koeficijent nego za predviđanje rezultata
+
+170
+00:12:32.752 --> 00:12:37.824
+jednog učenika, a u oba slučaja koeficijent treba da bude izračunat na dovoljno
+
+171
+00:12:37.931 --> 00:12:39.344
+velikom uzorku.
+
+172
+00:12:41.382 --> 00:12:45.142
+Prva zamka: korelacija ne pokazuje uzrok.
+
+173
+00:12:45.195 --> 00:12:49.382
+Skok udalj i trčanje četiri puta deset metara su povezani,
+
+174
+00:12:49.442 --> 00:12:55.302
+ali dalji skok ne čini trčanje bržim, niti brže trčanje čini skok daljim.
+
+175
+00:12:55.382 --> 00:12:58.662
+Oba rezultata u velikoj meri zavise od treće osobine,
+
+176
+00:12:58.715 --> 00:13:04.182
+koju nismo merili: od sposobnosti mišića nogu da za kratko vreme razviju veliku
+
+177
+00:13:04.262 --> 00:13:05.142
+silu.
+
+178
+00:13:05.190 --> 00:13:09.622
+Korelacija kaže da dve varijable idu zajedno, a ne zašto.
+
+179
+00:13:11.673 --> 00:13:14.073
+Druga zamka: krivolinijska veza.
+
+180
+00:13:14.206 --> 00:13:17.913
+Na ovom dijagramu tačke prvo rastu, pa opadaju.
+
+181
+00:13:17.966 --> 00:13:20.713
+Veza je jaka, ali nije pravolinijska,
+
+182
+00:13:20.793 --> 00:13:26.953
+a koeficijent korelacije je minus nula zapeta nula pet, praktično nula.
+
+183
+00:13:26.993 --> 00:13:32.713
+Pirsonov koeficijent opisuje samo linearnu vezu, pa krivolinijsku vezu ne vidi.
+
+184
+00:13:32.753 --> 00:13:34.793
+Zato prvo crtamo dijagram.
+
+185
+00:13:34.873 --> 00:13:38.633
+Ovi podaci su simulirani, da bi se jasno video oblik.
+
+186
+00:13:40.683 --> 00:13:46.043
+Treća zamka nas vraća na pitanje sa početka: da li teži učenici postižu lošije
+
+187
+00:13:46.083 --> 00:13:48.443
+rezultate u čunastom trčanju?
+
+188
+00:13:48.496 --> 00:13:53.323
+Na svih sto dvadeset pet učenika koeficijent korelacije je minus nula zapeta nula
+
+189
+00:13:53.383 --> 00:13:55.723
+jedan, praktično nula.
+
+190
+00:13:55.750 --> 00:13:59.243
+Da li to znači da telesna masa nije povezana sa rezultatom?
+
+191
+00:14:01.282 --> 00:14:02.642
+Pogledajmo samo dečake.
+
+192
+00:14:02.882 --> 00:14:07.842
+Njihov oblak se spušta udesno: teži dečaci u proseku kraće trče,
+
+193
+00:14:07.922 --> 00:14:10.402
+odnosno postižu lošiji rezultat.
+
+194
+00:14:10.429 --> 00:14:14.402
+Koeficijent korelacije je minus nula zapeta trideset sedam.
+
+195
+00:14:16.448 --> 00:14:18.288
+Kod devojčica je smer isti,
+
+196
+00:14:18.448 --> 00:14:23.488
+a veza slabija: koeficijent korelacije je minus nula zapeta trinaest.
+
+197
+00:14:25.527 --> 00:14:28.807
+Zašto se veza izgubila kada smo spojili grupe?
+
+198
+00:14:28.860 --> 00:14:30.567
+Dečaci su u proseku teži,
+
+199
+00:14:30.647 --> 00:14:34.887
+šezdeset šest zapeta dva kilograma prema pedeset šest zapeta devet,
+
+200
+00:14:34.927 --> 00:14:40.327
+ali i duže trče, u proseku trista četrdeset pet sekundi prema dvesta devet.
+
+201
+00:14:40.367 --> 00:14:46.167
+Razlika između grupa ide naviše udesno, a veza unutar svake grupe naniže udesno.
+
+202
+00:14:46.207 --> 00:14:51.287
+Kada se grupe spoje, ta dva smera se poništavaju, i koeficijent pada skoro na nulu.
+
+203
+00:14:53.336 --> 00:14:56.456
+Spajanje grupa može i da poveća koeficijent.
+
+204
+00:14:56.483 --> 00:15:01.496
+Koeficijent korelacije telesne visine i skoka udalj na svim učenicima je nula
+
+205
+00:15:01.576 --> 00:15:03.176
+zapeta trideset osam.
+
+206
+00:15:03.216 --> 00:15:09.096
+Kod dečaka on je nula zapeta trideset, a kod devojčica samo nula zapeta jedanaest.
+
+207
+00:15:09.176 --> 00:15:12.616
+Dečaci su u proseku i viši i dalje skaču,
+
+208
+00:15:12.669 --> 00:15:17.656
+pa razlika između grupa ide u istom smeru kao veza unutar grupa i povećava
+
+209
+00:15:17.736 --> 00:15:18.616
+koeficijent.
+
+210
+00:15:20.649 --> 00:15:25.449
+Kada se grupe razlikuju u obe varijable, kao ovde dečaci i devojčice,
+
+211
+00:15:25.502 --> 00:15:29.529
+koeficijent korelacije računajte posebno za svaku grupu.
+
+212
+00:15:29.609 --> 00:15:34.729
+Zato odgovor na pitanje sa početka glasi: teži dečaci u proseku kraće trče u
+
+213
+00:15:34.809 --> 00:15:38.489
+čunastom trčanju, odnosno postižu lošiji rezultat,
+
+214
+00:15:38.529 --> 00:15:41.769
+a kod devojčica je ta veza slaba.
+
+215
+00:15:41.796 --> 00:15:44.969
+Na vežbi ćete to uraditi za više parova varijabli.
+
+216
+00:15:46.995 --> 00:15:50.835
+Kao i uvek, prvi korak je da utvrdimo o kakvim je varijablama reč.
+
+217
+00:15:51.022 --> 00:15:53.475
+Skok udalj se meri u centimetrima,
+
+218
+00:15:53.555 --> 00:15:58.995
+a trčanje četiri puta deset metara u sekundama: obe varijable su kontinualne i mere
+
+219
+00:15:59.022 --> 00:16:00.915
+se na skali odnosa.
+
+220
+00:16:00.955 --> 00:16:04.516
+Zato u Džamoviju proverimo da je vrsta varijable, Measure type,
+
+221
+00:16:04.606 --> 00:16:06.755
+postavljena na Continuous.
+
+222
+00:16:08.796 --> 00:16:13.916
+Koeficijent korelacije dobijamo u meniju Analyses, pod Regression,
+
+223
+00:16:13.980 --> 00:16:16.556
+analiza Correlation Matrix.
+
+224
+00:16:16.732 --> 00:16:20.796
+Varijable koje nas zanimaju prebacimo u desno polje.
+
+225
+00:16:20.856 --> 00:16:23.276
+Pirsonov koeficijent je uključen sam.
+
+226
+00:16:23.516 --> 00:16:27.596
+U istom prozoru postoji i Spirmanov koeficijent, Spearman,
+
+227
+00:16:27.692 --> 00:16:32.476
+koji se koristi kada su podaci rangovi; ovde ga ne uključujemo.
+
+228
+00:16:32.716 --> 00:16:38.956
+Opciju Report significance isključimo: statističku značajnost obrađujemo u posebnoj
+
+229
+00:16:39.063 --> 00:16:39.836
+lekciji.
+
+230
+00:16:42.430 --> 00:16:46.510
+U tabeli je koeficijent korelacije za svaki par varijabli.
+
+231
+00:16:46.777 --> 00:16:52.310
+Za skok udalj i trčanje četiri puta deset metara, na svim učenicima,
+
+232
+00:16:52.377 --> 00:16:57.470
+to je minus nula zapeta šezdeset četiri, isto kao u našem računu.
+
+233
+00:16:59.503 --> 00:17:04.063
+Za svaku grupu posebno koristimo filter, kao u prethodnoj lekciji.
+
+234
+00:17:04.143 --> 00:17:07.664
+Uslov da je pol jednak nuli zadržava samo dečake,
+
+235
+00:17:07.704 --> 00:17:12.944
+a tabela se sama ponovo izračuna: za dečake je koeficijent minus nula zapeta
+
+236
+00:17:12.984 --> 00:17:13.904
+šezdeset sedam.
+
+237
+00:17:15.949 --> 00:17:19.189
+Tačkasti dijagram dobijamo u meniju Exploration,
+
+238
+00:17:19.229 --> 00:17:24.229
+analiza Scatter Plot: jednu varijablu stavimo na horizontalnu osu,
+
+239
+00:17:24.289 --> 00:17:25.949
+a drugu na vertikalnu.
+
+240
+00:17:26.089 --> 00:17:30.429
+Pre nego što protumačite koeficijent korelacije, pogledajte dijagram.
+
+241
+00:17:32.473 --> 00:17:34.273
+Šta da ponesete iz ove lekcije?
+
+242
+00:17:34.366 --> 00:17:38.713
+Prvo: pre svakog računa nacrtajte tačkasti dijagram.
+
+243
+00:17:40.742 --> 00:17:46.662
+Drugo: koeficijent korelacije opisuje smer i čvrstinu linearne veze i uvek je
+
+244
+00:17:46.689 --> 00:17:48.902
+između minus jedan i plus jedan.
+
+245
+00:17:50.944 --> 00:17:54.704
+Treće: koeficijent determinacije, r na kvadrat,
+
+246
+00:17:54.804 --> 00:18:01.024
+pokazuje zajedničku varijansu; koeficijent korelacije nula zapeta pet daje samo
+
+247
+00:18:01.131 --> 00:18:02.864
+dvadeset pet odsto.
+
+248
+00:18:04.909 --> 00:18:11.069
+I četvrto: korelacija ne pokazuje uzrok, a kada se grupe razlikuju,
+
+249
+00:18:11.122 --> 00:18:14.829
+koeficijent se računa posebno za svaku grupu.
