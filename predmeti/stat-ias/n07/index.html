@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>t-test · Uvod u statistiku u fizičkom vaspitanju i sportu</title>
-<meta name="description" content="t-test. Materijal iz 2025, u izradi.">
+<meta name="description" content="Da li je razlika aritmetičkih sredina od 26 cm između dečaka i devojčica u skoku udalj iz mesta nešto što je teško objasniti samo slučajnim izborom učenika u uzorak? Na to odgovara t-test: on poredi razliku dve aritmetičke sredine sa standardnom greškom te razlike. Lekcija objašnjava šta znače p-vrednost, interval pouzdanosti i jačina efekta (Cohenovo d) i zašto statistički značajna razlika ne mora biti i velika. Jedan skup podataka iz udžbenika Weira i Vincenta (2021) analizira se dva puta, kao da potiče iz nezavisnih i kao da potiče iz zavisnih uzoraka, kako bi se videlo zašto izbor testa zavisi od načina prikupljanja podataka. Na kraju: kako se t-test radi u Džamoviju.">
 <link rel="stylesheet" href="../../../stil.css?v=a28abda6">
 
 </head>
@@ -13,11 +13,16 @@
 <nav class="glavni"><a class="ime" href="../../../">Dragan Mirkov</a><div class="desno"><a href="../../../o-meni/">O meni</a><a class="jezik" href="../../../en/" hreflang="en" lang="en">English</a></div><div class="meni"><a href="../../../predmeti/oit/"><span class="nz">Informacione tehnologije</span><span class="nv">osnovne i integrisane</span></a><a href="../../../predmeti/stat-ias/" aria-current="page"><span class="nz">Uvod u statistiku</span><span class="nv">integrisane</span></a><a href="../../../predmeti/isfvsp/"><span class="nz">Informacioni sistemi</span><span class="nv">master</span></a><a href="../../../predmeti/stat-das/"><span class="nz">Statistika</span><span class="nv">doktorske</span></a><a href="../../../predmeti/prikupljanje-podataka/"><span class="nz">Prikupljanje podataka</span><span class="nv">doktorske</span></a><a href="../../../predmeti/ossi/"><span class="nz">IT i statistika za trenere</span><span class="nv">stručno osposobljavanje</span></a></div></nav><nav class="mrvice"><a href="../../../">Početna</a><span class="sep">›</span><a href="../">Uvod u statistiku u fizičkom vaspitanju i sportu</a><span class="sep">›</span><span>Lekcija 7</span></nav>
 <main>
 <h1 class="lek">t-test</h1>
-<p class="stari">Materijal iz 2025, u izradi</p>
-<h2>Materijal</h2>
-<ul class="fajlovi"><li><a href="STAT_IAS_N07_2025.pdf" target="_blank" rel="noopener">Slajdovi predavanja sa beleškama</a> <span class="vel">PDF, 691 kB · <a href="STAT_IAS_N07_2025.pdf" download>sačuvaj na računaru</a></span></li></ul>
+<p class="istaknut">Da li je razlika aritmetičkih sredina od 26 cm između dečaka i devojčica u skoku udalj iz mesta nešto što je teško objasniti samo slučajnim izborom učenika u uzorak? Na to odgovara t-test: on poredi razliku dve aritmetičke sredine sa standardnom greškom te razlike. Lekcija objašnjava šta znače p-vrednost, interval pouzdanosti i jačina efekta (Cohenovo d) i zašto statistički značajna razlika ne mora biti i velika. Jedan skup podataka iz udžbenika Weira i Vincenta (2021) analizira se dva puta, kao da potiče iz nezavisnih i kao da potiče iz zavisnih uzoraka, kako bi se videlo zašto izbor testa zavisi od načina prikupljanja podataka. Na kraju: kako se t-test radi u Džamoviju (Jamovi).</p>
+<h2>Posle ovog časa treba da znate</h2>
+<ul><li>kada se koristi t-test za nezavisne, a kada za zavisne uzorke</li><li>kako se računa t-vrednost</li><li>šta znače p-vrednost i interval pouzdanosti</li><li>kako se opisuje veličina razlike</li></ul>
+<h2>Predavanje</h2>
+<video id="v-pred" controls preload="metadata" poster="naslov.jpg"><source src="STAT_IAS_N07_Video_SR.mp4" type="video/mp4"></video>
+<ul class="fajlovi"><li><a href="STAT_IAS_N07_Video_SR.mp4" download>Video predavanja</a> <span class="vel">MP4, 22,1 MB</span></li><li><a href="STAT_IAS_N07_Prezentacija_SR.pdf" target="_blank" rel="noopener">Slajdovi predavanja</a> <span class="vel">PDF, 3,2 MB · <a href="STAT_IAS_N07_Prezentacija_SR.pdf" download>sačuvaj na računaru</a></span></li></ul>
 <h2>Dodatni materijal</h2>
-<ul class="linkovi"><li><a href="https://docs.jamovi.org/analyses/jg_21_t-test-independent.html" target="_blank" rel="noopener">t-test za nezavisne uzorke u Džamoviju (Jamovi) (dokumentacija, na engleskom)</a></li><li><a href="https://docs.jamovi.org/analyses/jg_22_t-test-paired.html" target="_blank" rel="noopener">t-test za zavisne uzorke u Džamoviju (dokumentacija, na engleskom)</a></li><li><a href="https://docs.jamovi.org/analyses/jg_23_t-test-onesample.html" target="_blank" rel="noopener">t-test za jedan uzorak u Džamoviju (dokumentacija, na engleskom)</a></li></ul>
+<ul class="linkovi"><li><a href="https://docs.jamovi.org/analyses/jg_21_t-test-independent.html" target="_blank" rel="noopener">t-test za nezavisne uzorke u Džamoviju (dokumentacija, na engleskom)</a></li><li><a href="https://docs.jamovi.org/analyses/jg_22_t-test-paired.html" target="_blank" rel="noopener">t-test za zavisne uzorke u Džamoviju (dokumentacija, na engleskom)</a></li><li><a href="https://docs.jamovi.org/analyses/jg_23_t-test-onesample.html" target="_blank" rel="noopener">t-test za jedan uzorak u Džamoviju (dokumentacija, na engleskom)</a></li></ul>
+<h2>Literatura</h2>
+<ul class="lit"><li>The jamovi project. (2026). <i>jamovi</i> (Version 2.7) [Computer software]. https://www.jamovi.org</li><li>Weir, J. P., &amp; Vincent, W. J. (2021). <i>Statistics in kinesiology</i> (5th ed.). Human Kinetics.</li><li>Weir, J. P., &amp; Vincent, W. J. (2021). <i>Statistics in kinesiology web resource</i> (5th ed.). Human Kinetics.</li></ul>
 <nav class="susedi"><span><a href="../n06/">← Lekcija 6: Regresija</a></span><span><a href="../">Sve lekcije</a></span><span></span></nav>
 </main>
 <footer>
